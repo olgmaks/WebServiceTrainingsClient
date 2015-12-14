@@ -1,0 +1,17 @@
+com\epam\unit\businesslogic\UserServiceBO.class
+com\epam\unit\repository\Users.class
+com\epam\unit\servicersimpl\UserServiceRSHTTPClient.class
+com\epam\unit\modelweb\SummarySuccess.class
+com\epam\unit\service\UserService.class
+com\epam\unit\modelweb\Summary.class
+com\epam\unit\modelweb\Response.class
+com\epam\unit\servicersimpl\UserServiceRSHTTPClient$1.class
+com\epam\unit\servicersimpl\UserServiceRS.class
+com\epam\unit\servicewsimpl\UserServiceImplService.class
+com\epam\unit\servicersimpl\UserServiceRSHTTPClient$2.class
+com\epam\unit\model\User.class
+com\epam\unit\model\Role.class
+com\epam\unit\modelweb\SummaryFault.class
+com\epam\unit\repository\Messages.class
+com\epam\unit\factory\Services.class
+com\epam\unit\servicewsimpl\ObjectFactory.class

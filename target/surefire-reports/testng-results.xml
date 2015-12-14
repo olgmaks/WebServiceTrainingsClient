@@ -1,0 +1,2017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="48" passed="48">
+  <reporter-output>
+    <line>
+      <![CDATA[setting up remote web service]]>
+    </line>
+    <line>
+      <![CDATA[Web service type : REST]]>
+    </line>
+    <line>
+      <![CDATA[connection to remote web service successful
+]]>
+    </line>
+    <line>
+      <![CDATA[params : email = dog4@gmail.com, password = qwerty]]>
+    </line>
+    <line>
+      <![CDATA[params : id=5]]>
+    </line>
+    <line>
+      <![CDATA[params : role=admin]]>
+    </line>
+    <line>
+      <![CDATA[params : email = dog4@gmail.com, password = qwerty]]>
+    </line>
+    <line>
+      <![CDATA[params : email=jik1450093059152@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName]]>
+    </line>
+    <line>
+      <![CDATA[setting up remote web service]]>
+    </line>
+    <line>
+      <![CDATA[Web service type : SOAP]]>
+    </line>
+    <line>
+      <![CDATA[connection to remote web service successful
+]]>
+    </line>
+    <line>
+      <![CDATA[params : email = dog4@gmail.com, password = qwerty]]>
+    </line>
+    <line>
+      <![CDATA[params : id=6]]>
+    </line>
+    <line>
+      <![CDATA[params : role=admin]]>
+    </line>
+    <line>
+      <![CDATA[params : email = dog4@gmail.com, password = qwerty]]>
+    </line>
+    <line>
+      <![CDATA[params : email=jik1450093059721@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName]]>
+    </line>
+  </reporter-output>
+  <suite name="TestAll" duration-ms="1506" started-at="2015-12-14T11:37:38Z" finished-at="2015-12-14T11:37:40Z">
+    <groups>
+    </groups>
+    <test name="UserServiceRESTUnitTest" duration-ms="594" started-at="2015-12-14T11:37:38Z" finished-at="2015-12-14T11:37:39Z">
+      <class name="com.epam.unit.UserServiceTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="setUp" is-config="true" duration-ms="6" started-at="2015-12-14T13:37:38Z" finished-at="2015-12-14T13:37:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@19e51abf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="setUp" is-config="true" duration-ms="121" started-at="2015-12-14T13:37:38Z" finished-at="2015-12-14T13:37:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[REST]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[setting up remote web service]]>
+            </line>
+            <line>
+              <![CDATA[Web service type : REST]]>
+            </line>
+            <line>
+              <![CDATA[connection to remote web service successful
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:38Z" finished-at="2015-12-14T13:37:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testAuthorizeUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testAuthorizeUser()[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="testAuthorizeUser" duration-ms="384" started-at="2015-12-14T13:37:38Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[params : email = dog4@gmail.com, password = qwerty]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAuthorizeUser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAuthorizeUser status=SUCCESS method=UserServiceTest.testAuthorizeUser()[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2] output=params : email = dog4@gmail.com, password = qwerty]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testAuthorizeUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testDeleteUser()[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="testDeleteUser" duration-ms="22" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[params : id=5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testDeleteUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteUser status=SUCCESS method=UserServiceTest.testDeleteUser()[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2] output=params : id=5]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testDeleteUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testGetAllUser()[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="testGetAllUser" duration-ms="12" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllUser -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testGetAllUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetAllUser status=SUCCESS method=UserServiceTest.testGetAllUser()[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testGetAllUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testGetUsersByRoleName()[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="testGetUsersByRoleName" duration-ms="20" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[params : role=admin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGetUsersByRoleName -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testGetUsersByRoleName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testLoginUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUsersByRoleName status=SUCCESS method=UserServiceTest.testGetUsersByRoleName()[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2] output=params : role=admin]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testGetUsersByRoleName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testLoginUser()[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="testLoginUser" duration-ms="9" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[params : email = dog4@gmail.com, password = qwerty]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginUser status=SUCCESS method=UserServiceTest.testLoginUser()[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2] output=params : email = dog4@gmail.com, password = qwerty]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testLoginUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testRegisterUser()[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="testRegisterUser" duration-ms="9" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[params : email=jik1450093059152@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRegisterUser -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testRegisterUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegisterUser status=SUCCESS method=UserServiceTest.testRegisterUser()[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2] output=params : email=jik1450093059152@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testRegisterUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.unit.UserServiceTest@6969bd2]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.unit.UserServiceTest -->
+    </test> <!-- UserServiceRESTUnitTest -->
+    <test name="UserServiceSOAPUnitTest" duration-ms="549" started-at="2015-12-14T11:37:39Z" finished-at="2015-12-14T11:37:39Z">
+      <class name="com.epam.unit.UserServiceTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@67b08461]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="setUp" is-config="true" duration-ms="442" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SOAP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[setting up remote web service]]>
+            </line>
+            <line>
+              <![CDATA[Web service type : SOAP]]>
+            </line>
+            <line>
+              <![CDATA[connection to remote web service successful
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testAuthorizeUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testAuthorizeUser()[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="testAuthorizeUser" duration-ms="78" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[params : email = dog4@gmail.com, password = qwerty]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAuthorizeUser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAuthorizeUser status=SUCCESS method=UserServiceTest.testAuthorizeUser()[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5] output=params : email = dog4@gmail.com, password = qwerty]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testAuthorizeUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testDeleteUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDeleteUser()[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="testDeleteUser" duration-ms="7" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[params : id=6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteUser status=SUCCESS method=UserServiceTest.testDeleteUser()[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5] output=params : id=6]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testDeleteUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testGetAllUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGetAllUser()[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="testGetAllUser" duration-ms="4" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllUser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetAllUser status=SUCCESS method=UserServiceTest.testGetAllUser()[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testGetAllUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testGetUsersByRoleName()[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="testGetUsersByRoleName" duration-ms="4" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[params : role=admin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGetUsersByRoleName -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testGetUsersByRoleName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUsersByRoleName status=SUCCESS method=UserServiceTest.testGetUsersByRoleName()[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5] output=params : role=admin]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testGetUsersByRoleName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testLoginUser()[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="testLoginUser" duration-ms="3" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[params : email = dog4@gmail.com, password = qwerty]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testLoginUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginUser status=SUCCESS method=UserServiceTest.testLoginUser()[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5] output=params : email = dog4@gmail.com, password = qwerty]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testLoginUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testRegisterUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testRegisterUser()[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="testRegisterUser" duration-ms="4" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[params : email=jik1450093059721@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRegisterUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegisterUser status=SUCCESS method=UserServiceTest.testRegisterUser()[pri:0, instance:com.epam.unit.UserServiceTest@65eb6cf5] output=params : email=jik1450093059721@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.unit.UserServiceTest.testRegisterUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.epam.unit.UserServiceTest -->
+    </test> <!-- UserServiceSOAPUnitTest -->
+    <test name="LoginServiceSOAPIntegrationTest" duration-ms="21" started-at="2015-12-14T11:37:39Z" finished-at="2015-12-14T11:37:39Z">
+      <class name="com.epam.integration.LoginUserTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.epam.integration.LoginUserTest@39410c85]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75c33175]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.epam.integration.LoginUserTest@39410c85]" name="setUp" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SOAP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.LoginUserTest@39410c85]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.LoginUserTest.testLoginEmptyEmailNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginEmptyEmailNegative()[pri:0, instance:com.epam.integration.LoginUserTest@39410c85]" name="testLoginEmptyEmailNegative" duration-ms="4" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginEmptyEmailNegative -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.LoginUserTest@39410c85]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginEmptyEmailNegative status=SUCCESS method=LoginUserTest.testLoginEmptyEmailNegative()[pri:0, instance:com.epam.integration.LoginUserTest@39410c85] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.LoginUserTest.testLoginEmptyEmailNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.LoginUserTest@39410c85]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.LoginUserTest.testLoginEmptyPasswordNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginEmptyPasswordNegative()[pri:0, instance:com.epam.integration.LoginUserTest@39410c85]" name="testLoginEmptyPasswordNegative" duration-ms="3" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginEmptyPasswordNegative -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.LoginUserTest@39410c85]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.LoginUserTest.testLoginNoExistUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.LoginUserTest@39410c85]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginEmptyPasswordNegative status=SUCCESS method=LoginUserTest.testLoginEmptyPasswordNegative()[pri:0, instance:com.epam.integration.LoginUserTest@39410c85] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.LoginUserTest.testLoginEmptyPasswordNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testLoginNoExistUser()[pri:0, instance:com.epam.integration.LoginUserTest@39410c85]" name="testLoginNoExistUser" duration-ms="3" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginNoExistUser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.LoginUserTest@39410c85]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginNoExistUser status=SUCCESS method=LoginUserTest.testLoginNoExistUser()[pri:0, instance:com.epam.integration.LoginUserTest@39410c85] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.LoginUserTest.testLoginNoExistUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testLoginPositive()[pri:0, instance:com.epam.integration.LoginUserTest@39410c85]" name="testLoginPositive" duration-ms="4" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPositive -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.LoginUserTest@39410c85]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.LoginUserTest.testLoginPositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.LoginUserTest@39410c85]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginPositive status=SUCCESS method=LoginUserTest.testLoginPositive()[pri:0, instance:com.epam.integration.LoginUserTest@39410c85] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.LoginUserTest.testLoginPositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.integration.LoginUserTest@39410c85]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.integration.LoginUserTest -->
+    </test> <!-- LoginServiceSOAPIntegrationTest -->
+    <test name="LoginServiceRESTIntegrationTest" duration-ms="39" started-at="2015-12-14T11:37:39Z" finished-at="2015-12-14T11:37:39Z">
+      <class name="com.epam.integration.LoginUserTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.epam.integration.LoginUserTest@322558e]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61e434b9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.epam.integration.LoginUserTest@322558e]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[REST]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginEmptyEmailNegative()[pri:0, instance:com.epam.integration.LoginUserTest@322558e]" name="testLoginEmptyEmailNegative" duration-ms="9" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginEmptyEmailNegative -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.LoginUserTest@322558e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.LoginUserTest.testLoginEmptyEmailNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.LoginUserTest@322558e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginEmptyEmailNegative status=SUCCESS method=LoginUserTest.testLoginEmptyEmailNegative()[pri:0, instance:com.epam.integration.LoginUserTest@322558e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.LoginUserTest.testLoginEmptyEmailNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.LoginUserTest@322558e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.LoginUserTest.testLoginEmptyPasswordNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginEmptyPasswordNegative()[pri:0, instance:com.epam.integration.LoginUserTest@322558e]" name="testLoginEmptyPasswordNegative" duration-ms="8" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginEmptyPasswordNegative -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.LoginUserTest@322558e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginEmptyPasswordNegative status=SUCCESS method=LoginUserTest.testLoginEmptyPasswordNegative()[pri:0, instance:com.epam.integration.LoginUserTest@322558e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.LoginUserTest.testLoginEmptyPasswordNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.LoginUserTest@322558e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.LoginUserTest.testLoginNoExistUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginNoExistUser()[pri:0, instance:com.epam.integration.LoginUserTest@322558e]" name="testLoginNoExistUser" duration-ms="8" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginNoExistUser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.LoginUserTest@322558e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginNoExistUser status=SUCCESS method=LoginUserTest.testLoginNoExistUser()[pri:0, instance:com.epam.integration.LoginUserTest@322558e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.LoginUserTest.testLoginNoExistUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testLoginPositive()[pri:0, instance:com.epam.integration.LoginUserTest@322558e]" name="testLoginPositive" duration-ms="9" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPositive -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.LoginUserTest@322558e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.LoginUserTest.testLoginPositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.LoginUserTest@322558e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginPositive status=SUCCESS method=LoginUserTest.testLoginPositive()[pri:0, instance:com.epam.integration.LoginUserTest@322558e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.LoginUserTest.testLoginPositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.integration.LoginUserTest@322558e]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.integration.LoginUserTest -->
+    </test> <!-- LoginServiceRESTIntegrationTest -->
+    <test name="RegistrationServiceSOAPIntegrationTest" duration-ms="25" started-at="2015-12-14T11:37:39Z" finished-at="2015-12-14T11:37:39Z">
+      <class name="com.epam.integration.RegistrationUserTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.epam.integration.RegistrationUserTest@3058b2a9]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d418fe4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.epam.integration.RegistrationUserTest@3058b2a9]" name="setUp" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SOAP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRegisterEmptyEmailNegative()[pri:0, instance:com.epam.integration.RegistrationUserTest@3058b2a9]" name="testRegisterEmptyEmailNegative" duration-ms="4" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterEmptyEmailNegative -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.RegistrationUserTest@3058b2a9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.RegistrationUserTest.testRegisterEmptyEmailNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.RegistrationUserTest@3058b2a9]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegisterEmptyEmailNegative status=SUCCESS method=RegistrationUserTest.testRegisterEmptyEmailNegative()[pri:0, instance:com.epam.integration.RegistrationUserTest@3058b2a9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.RegistrationUserTest.testRegisterEmptyEmailNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.RegistrationUserTest@3058b2a9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.RegistrationUserTest.testRegisterEmptyPasswordNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testRegisterEmptyPasswordNegative()[pri:0, instance:com.epam.integration.RegistrationUserTest@3058b2a9]" name="testRegisterEmptyPasswordNegative" duration-ms="4" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterEmptyPasswordNegative -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.RegistrationUserTest@3058b2a9]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegisterEmptyPasswordNegative status=SUCCESS method=RegistrationUserTest.testRegisterEmptyPasswordNegative()[pri:0, instance:com.epam.integration.RegistrationUserTest@3058b2a9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.RegistrationUserTest.testRegisterEmptyPasswordNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.RegistrationUserTest@3058b2a9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.RegistrationUserTest.testRegisterExistingUserNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testRegisterExistingUserNegative()[pri:0, instance:com.epam.integration.RegistrationUserTest@3058b2a9]" name="testRegisterExistingUserNegative" duration-ms="4" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterExistingUserNegative -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.RegistrationUserTest@3058b2a9]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegisterExistingUserNegative status=SUCCESS method=RegistrationUserTest.testRegisterExistingUserNegative()[pri:0, instance:com.epam.integration.RegistrationUserTest@3058b2a9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.RegistrationUserTest.testRegisterExistingUserNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.RegistrationUserTest@3058b2a9]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.RegistrationUserTest.testRegisterPositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testRegisterPositive()[pri:0, instance:com.epam.integration.RegistrationUserTest@3058b2a9]" name="testRegisterPositive" duration-ms="8" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPositive -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.RegistrationUserTest@3058b2a9]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegisterPositive status=SUCCESS method=RegistrationUserTest.testRegisterPositive()[pri:0, instance:com.epam.integration.RegistrationUserTest@3058b2a9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.RegistrationUserTest.testRegisterPositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.integration.RegistrationUserTest@3058b2a9]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.integration.RegistrationUserTest -->
+    </test> <!-- RegistrationServiceSOAPIntegrationTest -->
+    <test name="RegistrationServiceRESTIntegrationTest" duration-ms="50" started-at="2015-12-14T11:37:39Z" finished-at="2015-12-14T11:37:39Z">
+      <class name="com.epam.integration.RegistrationUserTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.epam.integration.RegistrationUserTest@3fb7be8]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@b4de95c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.epam.integration.RegistrationUserTest@3fb7be8]" name="setUp" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[REST]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRegisterEmptyEmailNegative()[pri:0, instance:com.epam.integration.RegistrationUserTest@3fb7be8]" name="testRegisterEmptyEmailNegative" duration-ms="9" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterEmptyEmailNegative -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.RegistrationUserTest@3fb7be8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.RegistrationUserTest.testRegisterEmptyEmailNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testRegisterEmptyPasswordNegative()[pri:0, instance:com.epam.integration.RegistrationUserTest@3fb7be8]" name="testRegisterEmptyPasswordNegative" duration-ms="9" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterEmptyPasswordNegative -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.RegistrationUserTest@3fb7be8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.RegistrationUserTest.testRegisterEmptyPasswordNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.RegistrationUserTest@3fb7be8]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegisterEmptyEmailNegative status=SUCCESS method=RegistrationUserTest.testRegisterEmptyEmailNegative()[pri:0, instance:com.epam.integration.RegistrationUserTest@3fb7be8] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.RegistrationUserTest.testRegisterEmptyEmailNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.RegistrationUserTest@3fb7be8]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.RegistrationUserTest.testRegisterExistingUserNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.RegistrationUserTest@3fb7be8]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegisterEmptyPasswordNegative status=SUCCESS method=RegistrationUserTest.testRegisterEmptyPasswordNegative()[pri:0, instance:com.epam.integration.RegistrationUserTest@3fb7be8] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.RegistrationUserTest.testRegisterEmptyPasswordNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testRegisterExistingUserNegative()[pri:0, instance:com.epam.integration.RegistrationUserTest@3fb7be8]" name="testRegisterExistingUserNegative" duration-ms="8" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterExistingUserNegative -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.RegistrationUserTest@3fb7be8]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegisterExistingUserNegative status=SUCCESS method=RegistrationUserTest.testRegisterExistingUserNegative()[pri:0, instance:com.epam.integration.RegistrationUserTest@3fb7be8] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.RegistrationUserTest.testRegisterExistingUserNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testRegisterPositive()[pri:0, instance:com.epam.integration.RegistrationUserTest@3fb7be8]" name="testRegisterPositive" duration-ms="19" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPositive -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.RegistrationUserTest@3fb7be8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.RegistrationUserTest.testRegisterPositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.RegistrationUserTest@3fb7be8]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegisterPositive status=SUCCESS method=RegistrationUserTest.testRegisterPositive()[pri:0, instance:com.epam.integration.RegistrationUserTest@3fb7be8] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.RegistrationUserTest.testRegisterPositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.integration.RegistrationUserTest@3fb7be8]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.integration.RegistrationUserTest -->
+    </test> <!-- RegistrationServiceRESTIntegrationTest -->
+    <test name="AuthorizeServiceSOAPIntegrationTest" duration-ms="21" started-at="2015-12-14T11:37:39Z" finished-at="2015-12-14T11:37:39Z">
+      <class name="com.epam.integration.AuthorizeUserTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.epam.integration.AuthorizeUserTest@36a331d3]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SOAP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.epam.integration.AuthorizeUserTest@36a331d3]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28139cd0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAuthorizeEmptyEmailNegative()[pri:0, instance:com.epam.integration.AuthorizeUserTest@36a331d3]" name="testAuthorizeEmptyEmailNegative" duration-ms="5" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthorizeEmptyEmailNegative -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.AuthorizeUserTest@36a331d3]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.AuthorizeUserTest.testAuthorizeEmptyEmailNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.AuthorizeUserTest@36a331d3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAuthorizeEmptyEmailNegative status=SUCCESS method=AuthorizeUserTest.testAuthorizeEmptyEmailNegative()[pri:0, instance:com.epam.integration.AuthorizeUserTest@36a331d3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.AuthorizeUserTest.testAuthorizeEmptyEmailNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.AuthorizeUserTest@36a331d3]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.AuthorizeUserTest.testAuthorizeEmptyPasswordNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testAuthorizeEmptyPasswordNegative()[pri:0, instance:com.epam.integration.AuthorizeUserTest@36a331d3]" name="testAuthorizeEmptyPasswordNegative" duration-ms="3" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthorizeEmptyPasswordNegative -->
+        <test-method status="PASS" signature="testAuthorizeNoExistNegative()[pri:0, instance:com.epam.integration.AuthorizeUserTest@36a331d3]" name="testAuthorizeNoExistNegative" duration-ms="3" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthorizeNoExistNegative -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.AuthorizeUserTest@36a331d3]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.AuthorizeUserTest.testAuthorizeNoExistNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.AuthorizeUserTest@36a331d3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAuthorizeEmptyPasswordNegative status=SUCCESS method=AuthorizeUserTest.testAuthorizeEmptyPasswordNegative()[pri:0, instance:com.epam.integration.AuthorizeUserTest@36a331d3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.AuthorizeUserTest.testAuthorizeEmptyPasswordNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.AuthorizeUserTest@36a331d3]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.AuthorizeUserTest.testAuthorizePositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.AuthorizeUserTest@36a331d3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAuthorizeNoExistNegative status=SUCCESS method=AuthorizeUserTest.testAuthorizeNoExistNegative()[pri:0, instance:com.epam.integration.AuthorizeUserTest@36a331d3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.AuthorizeUserTest.testAuthorizeNoExistNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testAuthorizePositive()[pri:0, instance:com.epam.integration.AuthorizeUserTest@36a331d3]" name="testAuthorizePositive" duration-ms="4" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthorizePositive -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.AuthorizeUserTest@36a331d3]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAuthorizePositive status=SUCCESS method=AuthorizeUserTest.testAuthorizePositive()[pri:0, instance:com.epam.integration.AuthorizeUserTest@36a331d3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.AuthorizeUserTest.testAuthorizePositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.integration.AuthorizeUserTest@36a331d3]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.integration.AuthorizeUserTest -->
+    </test> <!-- AuthorizeServiceSOAPIntegrationTest -->
+    <test name="AuthorizeServiceRESTIntegrationTest" duration-ms="38" started-at="2015-12-14T11:37:39Z" finished-at="2015-12-14T11:37:39Z">
+      <class name="com.epam.integration.AuthorizeUserTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.epam.integration.AuthorizeUserTest@72d53ac7]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f9c303e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.epam.integration.AuthorizeUserTest@72d53ac7]" name="setUp" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[REST]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAuthorizeEmptyEmailNegative()[pri:0, instance:com.epam.integration.AuthorizeUserTest@72d53ac7]" name="testAuthorizeEmptyEmailNegative" duration-ms="9" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthorizeEmptyEmailNegative -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.AuthorizeUserTest@72d53ac7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.AuthorizeUserTest.testAuthorizeEmptyEmailNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.AuthorizeUserTest@72d53ac7]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.AuthorizeUserTest.testAuthorizeEmptyPasswordNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.AuthorizeUserTest@72d53ac7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAuthorizeEmptyEmailNegative status=SUCCESS method=AuthorizeUserTest.testAuthorizeEmptyEmailNegative()[pri:0, instance:com.epam.integration.AuthorizeUserTest@72d53ac7] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.AuthorizeUserTest.testAuthorizeEmptyEmailNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testAuthorizeEmptyPasswordNegative()[pri:0, instance:com.epam.integration.AuthorizeUserTest@72d53ac7]" name="testAuthorizeEmptyPasswordNegative" duration-ms="8" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthorizeEmptyPasswordNegative -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.AuthorizeUserTest@72d53ac7]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAuthorizeEmptyPasswordNegative status=SUCCESS method=AuthorizeUserTest.testAuthorizeEmptyPasswordNegative()[pri:0, instance:com.epam.integration.AuthorizeUserTest@72d53ac7] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.AuthorizeUserTest.testAuthorizeEmptyPasswordNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testAuthorizeNoExistNegative()[pri:0, instance:com.epam.integration.AuthorizeUserTest@72d53ac7]" name="testAuthorizeNoExistNegative" duration-ms="8" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthorizeNoExistNegative -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.AuthorizeUserTest@72d53ac7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.AuthorizeUserTest.testAuthorizeNoExistNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.AuthorizeUserTest@72d53ac7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAuthorizeNoExistNegative status=SUCCESS method=AuthorizeUserTest.testAuthorizeNoExistNegative()[pri:0, instance:com.epam.integration.AuthorizeUserTest@72d53ac7] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.AuthorizeUserTest.testAuthorizeNoExistNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.AuthorizeUserTest@72d53ac7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.AuthorizeUserTest.testAuthorizePositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testAuthorizePositive()[pri:0, instance:com.epam.integration.AuthorizeUserTest@72d53ac7]" name="testAuthorizePositive" duration-ms="8" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthorizePositive -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.AuthorizeUserTest@72d53ac7]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAuthorizePositive status=SUCCESS method=AuthorizeUserTest.testAuthorizePositive()[pri:0, instance:com.epam.integration.AuthorizeUserTest@72d53ac7] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.AuthorizeUserTest.testAuthorizePositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.integration.AuthorizeUserTest@72d53ac7]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.integration.AuthorizeUserTest -->
+    </test> <!-- AuthorizeServiceRESTIntegrationTest -->
+    <test name="DeleteUserSOAPIntegrationTest" duration-ms="17" started-at="2015-12-14T11:37:39Z" finished-at="2015-12-14T11:37:39Z">
+      <class name="com.epam.integration.DeleteUserTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.epam.integration.DeleteUserTest@7fcdf523]" name="setUp" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@472346a8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.epam.integration.DeleteUserTest@7fcdf523]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SOAP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.DeleteUserTest@7fcdf523]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.DeleteUserTest.testDeleteInvalidIdNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDeleteInvalidIdNegative()[pri:0, instance:com.epam.integration.DeleteUserTest@7fcdf523]" name="testDeleteInvalidIdNegative" duration-ms="2" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteInvalidIdNegative -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.DeleteUserTest@7fcdf523]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteInvalidIdNegative status=SUCCESS method=DeleteUserTest.testDeleteInvalidIdNegative()[pri:0, instance:com.epam.integration.DeleteUserTest@7fcdf523] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.DeleteUserTest.testDeleteInvalidIdNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.DeleteUserTest@7fcdf523]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.DeleteUserTest.testDeleteNoExistUserNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDeleteNoExistUserNegative()[pri:0, instance:com.epam.integration.DeleteUserTest@7fcdf523]" name="testDeleteNoExistUserNegative" duration-ms="4" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteNoExistUserNegative -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.DeleteUserTest@7fcdf523]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteNoExistUserNegative status=SUCCESS method=DeleteUserTest.testDeleteNoExistUserNegative()[pri:0, instance:com.epam.integration.DeleteUserTest@7fcdf523] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.DeleteUserTest.testDeleteNoExistUserNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.DeleteUserTest@7fcdf523]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.DeleteUserTest.testDeleteUserPositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDeleteUserPositive()[pri:0, instance:com.epam.integration.DeleteUserTest@7fcdf523]" name="testDeleteUserPositive" duration-ms="7" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserPositive -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.DeleteUserTest@7fcdf523]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteUserPositive status=SUCCESS method=DeleteUserTest.testDeleteUserPositive()[pri:0, instance:com.epam.integration.DeleteUserTest@7fcdf523] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.DeleteUserTest.testDeleteUserPositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.integration.DeleteUserTest@7fcdf523]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.integration.DeleteUserTest -->
+    </test> <!-- DeleteUserSOAPIntegrationTest -->
+    <test name="DeleteUserRESTIntegrationTest" duration-ms="36" started-at="2015-12-14T11:37:39Z" finished-at="2015-12-14T11:37:39Z">
+      <class name="com.epam.integration.DeleteUserTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.epam.integration.DeleteUserTest@6a753711]" name="setUp" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[REST]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.epam.integration.DeleteUserTest@6a753711]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cf3e414]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.DeleteUserTest@6a753711]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.DeleteUserTest.testDeleteInvalidIdNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDeleteInvalidIdNegative()[pri:0, instance:com.epam.integration.DeleteUserTest@6a753711]" name="testDeleteInvalidIdNegative" duration-ms="8" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteInvalidIdNegative -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.DeleteUserTest@6a753711]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.DeleteUserTest.testDeleteNoExistUserNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDeleteNoExistUserNegative()[pri:0, instance:com.epam.integration.DeleteUserTest@6a753711]" name="testDeleteNoExistUserNegative" duration-ms="8" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteNoExistUserNegative -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.DeleteUserTest@6a753711]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteInvalidIdNegative status=SUCCESS method=DeleteUserTest.testDeleteInvalidIdNegative()[pri:0, instance:com.epam.integration.DeleteUserTest@6a753711] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.DeleteUserTest.testDeleteInvalidIdNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.DeleteUserTest@6a753711]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.DeleteUserTest.testDeleteUserPositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.DeleteUserTest@6a753711]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteNoExistUserNegative status=SUCCESS method=DeleteUserTest.testDeleteNoExistUserNegative()[pri:0, instance:com.epam.integration.DeleteUserTest@6a753711] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.DeleteUserTest.testDeleteNoExistUserNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testDeleteUserPositive()[pri:0, instance:com.epam.integration.DeleteUserTest@6a753711]" name="testDeleteUserPositive" duration-ms="16" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserPositive -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.DeleteUserTest@6a753711]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteUserPositive status=SUCCESS method=DeleteUserTest.testDeleteUserPositive()[pri:0, instance:com.epam.integration.DeleteUserTest@6a753711] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.DeleteUserTest.testDeleteUserPositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.integration.DeleteUserTest@6a753711]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:39Z" finished-at="2015-12-14T13:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.integration.DeleteUserTest -->
+    </test> <!-- DeleteUserRESTIntegrationTest -->
+    <test name="GetUsersByRoleNameSOAPIntegrationTest" duration-ms="11" started-at="2015-12-14T11:37:40Z" finished-at="2015-12-14T11:37:40Z">
+      <class name="com.epam.integration.GetUsersByRoleNameTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@55c9024e]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@353dc9f3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@55c9024e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.GetUsersByRoleNameTest.testGetUserByRoleNameNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGetUserByRoleNameNegative()[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@55c9024e]" name="testGetUserByRoleNameNegative" duration-ms="3" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByRoleNameNegative -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@55c9024e]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SOAP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@55c9024e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUserByRoleNameNegative status=SUCCESS method=GetUsersByRoleNameTest.testGetUserByRoleNameNegative()[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@55c9024e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.GetUsersByRoleNameTest.testGetUserByRoleNameNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@55c9024e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.GetUsersByRoleNameTest.testGetUsersByRoleNamePositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGetUsersByRoleNamePositive()[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@55c9024e]" name="testGetUsersByRoleNamePositive" duration-ms="6" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersByRoleNamePositive -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@55c9024e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUsersByRoleNamePositive status=SUCCESS method=GetUsersByRoleNameTest.testGetUsersByRoleNamePositive()[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@55c9024e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.GetUsersByRoleNameTest.testGetUsersByRoleNamePositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@55c9024e]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.integration.GetUsersByRoleNameTest -->
+    </test> <!-- GetUsersByRoleNameSOAPIntegrationTest -->
+    <test name="GetUsersByRoleNameRESTIntegrationTest" duration-ms="34" started-at="2015-12-14T11:37:40Z" finished-at="2015-12-14T11:37:40Z">
+      <class name="com.epam.integration.GetUsersByRoleNameTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@599cc97d]" name="setUp" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[REST]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@599cc97d]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6b958bd3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetUserByRoleNameNegative()[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@599cc97d]" name="testGetUserByRoleNameNegative" duration-ms="8" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByRoleNameNegative -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@599cc97d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.GetUsersByRoleNameTest.testGetUserByRoleNameNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGetUsersByRoleNamePositive()[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@599cc97d]" name="testGetUsersByRoleNamePositive" duration-ms="23" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersByRoleNamePositive -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@599cc97d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUserByRoleNameNegative status=SUCCESS method=GetUsersByRoleNameTest.testGetUserByRoleNameNegative()[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@599cc97d] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.GetUsersByRoleNameTest.testGetUserByRoleNameNegative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@599cc97d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.GetUsersByRoleNameTest.testGetUsersByRoleNamePositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@599cc97d]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@599cc97d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUsersByRoleNamePositive status=SUCCESS method=GetUsersByRoleNameTest.testGetUsersByRoleNamePositive()[pri:0, instance:com.epam.integration.GetUsersByRoleNameTest@599cc97d] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.GetUsersByRoleNameTest.testGetUsersByRoleNamePositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.epam.integration.GetUsersByRoleNameTest -->
+    </test> <!-- GetUsersByRoleNameRESTIntegrationTest -->
+    <test name="GetAllUsersSOAPIntegrationTest" duration-ms="8" started-at="2015-12-14T11:37:40Z" finished-at="2015-12-14T11:37:40Z">
+      <class name="com.epam.integration.GetAllUsersTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.epam.integration.GetAllUsersTest@75b5950a]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@270f00d3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.epam.integration.GetAllUsersTest@75b5950a]" name="setUp" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SOAP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.GetAllUsersTest@75b5950a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.GetAllUsersTest.testGetAllUsersPositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGetAllUsersPositive()[pri:0, instance:com.epam.integration.GetAllUsersTest@75b5950a]" name="testGetAllUsersPositive" duration-ms="6" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllUsersPositive -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.integration.GetAllUsersTest@75b5950a]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.GetAllUsersTest@75b5950a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetAllUsersPositive status=SUCCESS method=GetAllUsersTest.testGetAllUsersPositive()[pri:0, instance:com.epam.integration.GetAllUsersTest@75b5950a] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.GetAllUsersTest.testGetAllUsersPositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.epam.integration.GetAllUsersTest -->
+    </test> <!-- GetAllUsersSOAPIntegrationTest -->
+    <test name="GetAllUsersRESTIntegrationTest" duration-ms="13" started-at="2015-12-14T11:37:40Z" finished-at="2015-12-14T11:37:40Z">
+      <class name="com.epam.integration.GetAllUsersTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.epam.integration.GetAllUsersTest@46c8fa1e]" name="setUp" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@49ff30ad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.epam.integration.GetAllUsersTest@46c8fa1e]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[REST]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetAllUsersPositive()[pri:0, instance:com.epam.integration.GetAllUsersTest@46c8fa1e]" name="testGetAllUsersPositive" duration-ms="11" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllUsersPositive -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.epam.integration.GetAllUsersTest@46c8fa1e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.epam.integration.GetAllUsersTest.testGetAllUsersPositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.epam.integration.GetAllUsersTest@46c8fa1e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetAllUsersPositive status=SUCCESS method=GetAllUsersTest.testGetAllUsersPositive()[pri:0, instance:com.epam.integration.GetAllUsersTest@46c8fa1e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.epam.integration.GetAllUsersTest.testGetAllUsersPositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.integration.GetAllUsersTest@46c8fa1e]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-12-14T13:37:40Z" finished-at="2015-12-14T13:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.integration.GetAllUsersTest -->
+    </test> <!-- GetAllUsersRESTIntegrationTest -->
+  </suite> <!-- TestAll -->
+</testng-results>

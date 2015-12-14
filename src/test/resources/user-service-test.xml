@@ -1,0 +1,120 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll">
+
+
+    <test name="UserServiceRESTUnitTest">
+        <parameter name="serviceType" value="REST"></parameter>
+        <classes>
+            <class name="com.epam.unit.UserServiceTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="UserServiceSOAPUnitTest">
+        <parameter name="serviceType" value="SOAP"></parameter>
+        <classes>
+            <class name="com.epam.unit.UserServiceTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="LoginServiceSOAPIntegrationTest">
+        <parameter name="serviceType" value="SOAP"/>
+        <classes>
+            <class name="com.epam.integration.LoginUserTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="LoginServiceRESTIntegrationTest">
+        <parameter name="serviceType" value="REST"/>
+        <classes>
+            <class name="com.epam.integration.LoginUserTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="RegistrationServiceSOAPIntegrationTest">
+        <parameter name="serviceType" value="SOAP"/>
+        <classes>
+            <class name="com.epam.integration.RegistrationUserTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="RegistrationServiceRESTIntegrationTest">
+        <parameter name="serviceType" value="REST"/>
+        <classes>
+            <class name="com.epam.integration.RegistrationUserTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="AuthorizeServiceSOAPIntegrationTest">
+        <parameter name="serviceType" value="SOAP"/>
+        <classes>
+            <class name="com.epam.integration.AuthorizeUserTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="AuthorizeServiceRESTIntegrationTest">
+        <parameter name="serviceType" value="REST"/>
+        <classes>
+            <class name="com.epam.integration.AuthorizeUserTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="DeleteUserSOAPIntegrationTest">
+        <parameter name="serviceType" value="SOAP"/>
+        <classes>
+            <class name="com.epam.integration.DeleteUserTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="DeleteUserRESTIntegrationTest">
+        <parameter name="serviceType" value="REST"/>
+        <classes>
+            <class name="com.epam.integration.DeleteUserTest">
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="GetUsersByRoleNameSOAPIntegrationTest">
+        <parameter name="serviceType" value="SOAP"/>
+        <classes>
+            <class name="com.epam.integration.GetUsersByRoleNameTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="GetUsersByRoleNameRESTIntegrationTest">
+        <parameter name="serviceType" value="REST"/>
+        <classes>
+            <class name="com.epam.integration.GetUsersByRoleNameTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="GetAllUsersSOAPIntegrationTest">
+        <parameter name="serviceType" value="SOAP"/>
+        <classes>
+            <class name="com.epam.integration.GetAllUsersTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="GetAllUsersRESTIntegrationTest">
+        <parameter name="serviceType" value="REST"/>
+        <classes>
+            <class name="com.epam.integration.GetAllUsersTest">
+            </class>
+        </classes>
+    </test>
+
+
+
+</suite>

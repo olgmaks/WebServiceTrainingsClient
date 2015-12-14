@@ -1,0 +1,1599 @@
+INFO  UserServiceTest setUp - setting up remote web service
+INFO  UserServiceTest setUp - Web service type : REST
+INFO  UserServiceTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testAuthorizeUser - params : email = dog4@gmail.com, password = qwerty
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testDeleteUser - params : id=55
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testGetUsersByRoleName - params : role=admin
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testLoginUser - params : email = dog4@gmail.com, password = qwerty
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testRegisterUser - params : email=jik1450083783180@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName
+INFO  TestBase afterMethod - passed
+
+INFO  UserServiceTest setUp - setting up remote web service
+INFO  UserServiceTest setUp - Web service type : SOAP
+INFO  UserServiceTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testAuthorizeUser - params : email = dog4@gmail.com, password = qwerty
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testDeleteUser - params : id=56
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testGetUsersByRoleName - params : role=admin
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testLoginUser - params : email = dog4@gmail.com, password = qwerty
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testRegisterUser - params : email=jik1450083783722@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName
+INFO  TestBase afterMethod - passed
+
+INFO  LoginUserTest setUp - setting up remote web service
+INFO  LoginUserTest setUp - Web service type : SOAP
+INFO  LoginUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginNoExistUser - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO login - login user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseFault - message : "User email and/or password are/is incorrect, please try again"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginPositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  LoginUserTest setUp - setting up remote web service
+INFO  LoginUserTest setUp - Web service type : REST
+INFO  LoginUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginNoExistUser - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO login - login user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseFault - message : "User email and/or password are/is incorrect, please try again"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginPositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  RegistrationUserTest setUp - setting up remote web service
+INFO  RegistrationUserTest setUp - Web service type : SOAP
+INFO  RegistrationUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterExistingUserNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Such user already exists in a system. Use another email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterPositive - PARAMS : User{email='email1450083783815@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='email1450083783815@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Registration successful"
+INFO  UserServiceBO login - login user : User{email='email1450083783815@gmail.com', fistName='test4', id=57, lastName='testLast4', password='qwerty', roles=[Role{id=2, name='user'}]}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  RegistrationUserTest setUp - setting up remote web service
+INFO  RegistrationUserTest setUp - Web service type : REST
+INFO  RegistrationUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterExistingUserNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Such user already exists in a system. Use another email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterPositive - PARAMS : User{email='email1450083783852@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='email1450083783852@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Registration successful"
+INFO  UserServiceBO login - login user : User{email='email1450083783852@gmail.com', fistName='test4', id=58, lastName='testLast4', password='qwerty', roles=[Role{id=2, name='user'}]}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  AuthorizeUserTest setUp - setting up remote web service
+INFO  AuthorizeUserTest setUp - Web service type : SOAP
+INFO  AuthorizeUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeNoExistNegative - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Guest has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizePositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "User has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  AuthorizeUserTest setUp - setting up remote web service
+INFO  AuthorizeUserTest setUp - Web service type : REST
+INFO  AuthorizeUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeNoExistNegative - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Guest has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizePositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "User has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  DeleteUserTest setUp - setting up remote web service
+INFO  DeleteUserTest setUp - Web service type : SOAP
+INFO  DeleteUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteInvalidIdNegative - PARAMS : id=-1
+INFO  UserServiceBO delete - delete user with id : -1
+INFO  UserServiceBO isResponseFault - message : "Invalid input data type for id=-1"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteNoExistUserNegative - PARAMS : id=15684
+INFO  UserServiceBO delete - delete user with id : 15684
+INFO  UserServiceBO isResponseFault - message : "User cannot be deleted"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteUserPositive - PARAMS : No params
+INFO  UserServiceBO register - register user : User{email='email1450083783943@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO delete - delete user with id : 59
+INFO  UserServiceBO isResponseSuccess - message : "User has been deleted successfully, User_ID = 59"
+INFO  TestBase afterMethod - passed
+
+INFO  DeleteUserTest setUp - setting up remote web service
+INFO  DeleteUserTest setUp - Web service type : REST
+INFO  DeleteUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteInvalidIdNegative - PARAMS : id=-1
+INFO  UserServiceBO delete - delete user with id : -1
+INFO  UserServiceBO isResponseFault - message : "Invalid input data type for id=-1"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteNoExistUserNegative - PARAMS : id=15684
+INFO  UserServiceBO delete - delete user with id : 15684
+INFO  UserServiceBO isResponseFault - message : "User cannot be deleted"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteUserPositive - PARAMS : No params
+INFO  UserServiceBO register - register user : User{email='email1450083783971@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO delete - delete user with id : 59
+INFO  UserServiceBO isResponseSuccess - message : "User has been deleted successfully, User_ID = 59"
+INFO  TestBase afterMethod - passed
+
+INFO  GetUsersByRoleNameTest setUp - setting up remote web service
+INFO  GetUsersByRoleNameTest setUp - Web service type : SOAP
+INFO  GetUsersByRoleNameTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : userss
+INFO  UserServiceBO isResponseFault - message : "Invalid role name, Role = [userss]"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : user
+INFO  UserServiceBO isResponseSuccess - message : "Users for role user successfully found"
+INFO  TestBase afterMethod - passed
+
+INFO  GetUsersByRoleNameTest setUp - setting up remote web service
+INFO  GetUsersByRoleNameTest setUp - Web service type : REST
+INFO  GetUsersByRoleNameTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : userss
+INFO  UserServiceBO isResponseFault - message : "Invalid role name, Role = [userss]"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : user
+INFO  UserServiceBO isResponseSuccess - message : "Users for role user successfully found"
+INFO  TestBase afterMethod - passed
+
+INFO  GetAllUsersTest setUp - setting up remote web service
+INFO  GetAllUsersTest setUp - Web service type : SOAP
+INFO  GetAllUsersTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getAllUsers - getAllUsers
+INFO  UserServiceBO isResponseSuccess - message : "Get all users successful"
+INFO  TestBase afterMethod - passed
+
+INFO  GetAllUsersTest setUp - setting up remote web service
+INFO  GetAllUsersTest setUp - Web service type : REST
+INFO  GetAllUsersTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getAllUsers - getAllUsers
+INFO  UserServiceBO isResponseSuccess - message : "Get all users successful"
+INFO  TestBase afterMethod - passed
+
+INFO  UserServiceTest setUp - setting up remote web service
+INFO  UserServiceTest setUp - Web service type : REST
+INFO  UserServiceTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testAuthorizeUser - params : email = dog4@gmail.com, password = qwerty
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testDeleteUser - params : id=5
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testGetUsersByRoleName - params : role=admin
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testLoginUser - params : email = dog4@gmail.com, password = qwerty
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testRegisterUser - params : email=jik1450084928956@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName
+INFO  TestBase afterMethod - passed
+
+INFO  UserServiceTest setUp - setting up remote web service
+INFO  UserServiceTest setUp - Web service type : SOAP
+INFO  UserServiceTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testAuthorizeUser - params : email = dog4@gmail.com, password = qwerty
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testDeleteUser - params : id=6
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testGetUsersByRoleName - params : role=admin
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testLoginUser - params : email = dog4@gmail.com, password = qwerty
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testRegisterUser - params : email=jik1450084929534@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName
+INFO  TestBase afterMethod - passed
+
+INFO  LoginUserTest setUp - setting up remote web service
+INFO  LoginUserTest setUp - Web service type : SOAP
+INFO  LoginUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginNoExistUser - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO login - login user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseFault - message : "User email and/or password are/is incorrect, please try again"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginPositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  LoginUserTest setUp - setting up remote web service
+INFO  LoginUserTest setUp - Web service type : REST
+INFO  LoginUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginNoExistUser - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO login - login user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseFault - message : "User email and/or password are/is incorrect, please try again"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginPositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  RegistrationUserTest setUp - setting up remote web service
+INFO  RegistrationUserTest setUp - Web service type : SOAP
+INFO  RegistrationUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterExistingUserNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Such user already exists in a system. Use another email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterPositive - PARAMS : User{email='email1450084929612@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='email1450084929612@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Registration successful"
+INFO  UserServiceBO login - login user : User{email='email1450084929612@gmail.com', fistName='test4', id=7, lastName='testLast4', password='qwerty', roles=[Role{id=2, name='user'}]}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  RegistrationUserTest setUp - setting up remote web service
+INFO  RegistrationUserTest setUp - Web service type : REST
+INFO  RegistrationUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterExistingUserNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Such user already exists in a system. Use another email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterPositive - PARAMS : User{email='email1450084929659@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='email1450084929659@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Registration successful"
+INFO  UserServiceBO login - login user : User{email='email1450084929659@gmail.com', fistName='test4', id=8, lastName='testLast4', password='qwerty', roles=[Role{id=2, name='user'}]}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  AuthorizeUserTest setUp - setting up remote web service
+INFO  AuthorizeUserTest setUp - Web service type : SOAP
+INFO  AuthorizeUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeNoExistNegative - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Guest has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizePositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "User has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  AuthorizeUserTest setUp - setting up remote web service
+INFO  AuthorizeUserTest setUp - Web service type : REST
+INFO  AuthorizeUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeNoExistNegative - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Guest has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizePositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "User has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  DeleteUserTest setUp - setting up remote web service
+INFO  DeleteUserTest setUp - Web service type : SOAP
+INFO  DeleteUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteInvalidIdNegative - PARAMS : id=-1
+INFO  UserServiceBO delete - delete user with id : -1
+INFO  UserServiceBO isResponseFault - message : "Invalid input data type for id=-1"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteNoExistUserNegative - PARAMS : id=15684
+INFO  UserServiceBO delete - delete user with id : 15684
+INFO  UserServiceBO isResponseFault - message : "User cannot be deleted"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteUserPositive - PARAMS : No params
+INFO  UserServiceBO register - register user : User{email='email1450084929784@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO delete - delete user with id : 9
+INFO  UserServiceBO isResponseSuccess - message : "User has been deleted successfully, User_ID = 9"
+INFO  TestBase afterMethod - passed
+
+INFO  DeleteUserTest setUp - setting up remote web service
+INFO  DeleteUserTest setUp - Web service type : REST
+INFO  DeleteUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteInvalidIdNegative - PARAMS : id=-1
+INFO  UserServiceBO delete - delete user with id : -1
+INFO  UserServiceBO isResponseFault - message : "Invalid input data type for id=-1"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteNoExistUserNegative - PARAMS : id=15684
+INFO  UserServiceBO delete - delete user with id : 15684
+INFO  UserServiceBO isResponseFault - message : "User cannot be deleted"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteUserPositive - PARAMS : No params
+INFO  UserServiceBO register - register user : User{email='email1450084929815@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO delete - delete user with id : 9
+INFO  UserServiceBO isResponseSuccess - message : "User has been deleted successfully, User_ID = 9"
+INFO  TestBase afterMethod - passed
+
+INFO  GetUsersByRoleNameTest setUp - setting up remote web service
+INFO  GetUsersByRoleNameTest setUp - Web service type : SOAP
+INFO  GetUsersByRoleNameTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : userss
+INFO  UserServiceBO isResponseFault - message : "Invalid role name, Role = [userss]"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : user
+INFO  UserServiceBO isResponseSuccess - message : "Users for role user successfully found"
+INFO  TestBase afterMethod - passed
+
+INFO  GetUsersByRoleNameTest setUp - setting up remote web service
+INFO  GetUsersByRoleNameTest setUp - Web service type : REST
+INFO  GetUsersByRoleNameTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : userss
+INFO  UserServiceBO isResponseFault - message : "Invalid role name, Role = [userss]"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : user
+INFO  UserServiceBO isResponseSuccess - message : "Users for role user successfully found"
+INFO  TestBase afterMethod - passed
+
+INFO  GetAllUsersTest setUp - setting up remote web service
+INFO  GetAllUsersTest setUp - Web service type : SOAP
+INFO  GetAllUsersTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getAllUsers - getAllUsers
+INFO  UserServiceBO isResponseSuccess - message : "Get all users successful"
+INFO  TestBase afterMethod - passed
+
+INFO  GetAllUsersTest setUp - setting up remote web service
+INFO  GetAllUsersTest setUp - Web service type : REST
+INFO  GetAllUsersTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getAllUsers - getAllUsers
+INFO  UserServiceBO isResponseSuccess - message : "Get all users successful"
+INFO  TestBase afterMethod - passed
+
+INFO  UserServiceTest setUp - setting up remote web service
+INFO  UserServiceTest setUp - Web service type : REST
+INFO  UserServiceTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testAuthorizeUser - params : email = dog4@gmail.com, password = qwerty
+ERROR TestBase afterMethod - failed public void com.epam.unit.UserServiceTest.testAuthorizeUser()
+
+INFO  TestBase beforeMethod - started
+ERROR TestBase afterMethod - failed public void com.epam.unit.UserServiceTest.testDeleteUser()
+
+INFO  TestBase beforeMethod - started
+ERROR TestBase afterMethod - failed public void com.epam.unit.UserServiceTest.testGetAllUser()
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testGetUsersByRoleName - params : role=admin
+ERROR TestBase afterMethod - failed public void com.epam.unit.UserServiceTest.testGetUsersByRoleName()
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testLoginUser - params : email = dog4@gmail.com, password = qwerty
+ERROR TestBase afterMethod - failed public void com.epam.unit.UserServiceTest.testLoginUser()
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest testRegisterUser - params : email=jik1450085973384@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName
+ERROR TestBase afterMethod - failed public void com.epam.unit.UserServiceTest.testRegisterUser()
+
+INFO  UserServiceTest setUp - setting up remote web service
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  LoginUserTest setUp - setting up remote web service
+INFO  LoginUserTest setUp - Web service type : SOAP
+INFO  LoginUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginNoExistUser - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO login - login user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseFault - message : "User email and/or password are/is incorrect, please try again"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginPositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  LoginUserTest setUp - setting up remote web service
+INFO  LoginUserTest setUp - Web service type : REST
+INFO  LoginUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginNoExistUser - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO login - login user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseFault - message : "User email and/or password are/is incorrect, please try again"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginPositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  RegistrationUserTest setUp - setting up remote web service
+INFO  RegistrationUserTest setUp - Web service type : SOAP
+INFO  RegistrationUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterExistingUserNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Such user already exists in a system. Use another email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterPositive - PARAMS : User{email='email1450087310532@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='email1450087310532@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Registration successful"
+INFO  UserServiceBO login - login user : User{email='email1450087310532@gmail.com', fistName='test4', id=7, lastName='testLast4', password='qwerty', roles=[Role{id=2, name='user'}]}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  RegistrationUserTest setUp - setting up remote web service
+INFO  RegistrationUserTest setUp - Web service type : REST
+INFO  RegistrationUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterExistingUserNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Such user already exists in a system. Use another email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterPositive - PARAMS : User{email='email1450087310578@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='email1450087310578@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Registration successful"
+INFO  UserServiceBO login - login user : User{email='email1450087310578@gmail.com', fistName='test4', id=8, lastName='testLast4', password='qwerty', roles=[Role{id=2, name='user'}]}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  AuthorizeUserTest setUp - setting up remote web service
+INFO  AuthorizeUserTest setUp - Web service type : SOAP
+INFO  AuthorizeUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeNoExistNegative - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Guest has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizePositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "User has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  AuthorizeUserTest setUp - setting up remote web service
+INFO  AuthorizeUserTest setUp - Web service type : REST
+INFO  AuthorizeUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeNoExistNegative - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Guest has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizePositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "User has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  DeleteUserTest setUp - setting up remote web service
+INFO  DeleteUserTest setUp - Web service type : SOAP
+INFO  DeleteUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteInvalidIdNegative - PARAMS : id=-1
+INFO  UserServiceBO delete - delete user with id : -1
+INFO  UserServiceBO isResponseFault - message : "Invalid input data type for id=-1"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteNoExistUserNegative - PARAMS : id=15684
+INFO  UserServiceBO delete - delete user with id : 15684
+INFO  UserServiceBO isResponseFault - message : "User cannot be deleted"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteUserPositive - PARAMS : No params
+INFO  UserServiceBO register - register user : User{email='email1450087310672@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO delete - delete user with id : 9
+INFO  UserServiceBO isResponseSuccess - message : "User has been deleted successfully, User_ID = 9"
+INFO  TestBase afterMethod - passed
+
+INFO  DeleteUserTest setUp - setting up remote web service
+INFO  DeleteUserTest setUp - Web service type : REST
+INFO  DeleteUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteInvalidIdNegative - PARAMS : id=-1
+INFO  UserServiceBO delete - delete user with id : -1
+INFO  UserServiceBO isResponseFault - message : "Invalid input data type for id=-1"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteNoExistUserNegative - PARAMS : id=15684
+INFO  UserServiceBO delete - delete user with id : 15684
+INFO  UserServiceBO isResponseFault - message : "User cannot be deleted"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteUserPositive - PARAMS : No params
+INFO  UserServiceBO register - register user : User{email='email1450087310703@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO delete - delete user with id : 9
+INFO  UserServiceBO isResponseSuccess - message : "User has been deleted successfully, User_ID = 9"
+INFO  TestBase afterMethod - passed
+
+INFO  GetUsersByRoleNameTest setUp - setting up remote web service
+INFO  GetUsersByRoleNameTest setUp - Web service type : SOAP
+INFO  GetUsersByRoleNameTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : userss
+INFO  UserServiceBO isResponseFault - message : "Invalid role name, Role = [userss]"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : user
+INFO  UserServiceBO isResponseSuccess - message : "Users for role user successfully found"
+INFO  TestBase afterMethod - passed
+
+INFO  GetUsersByRoleNameTest setUp - setting up remote web service
+INFO  GetUsersByRoleNameTest setUp - Web service type : REST
+INFO  GetUsersByRoleNameTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : userss
+INFO  UserServiceBO isResponseFault - message : "Invalid role name, Role = [userss]"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : user
+INFO  UserServiceBO isResponseSuccess - message : "Users for role user successfully found"
+INFO  TestBase afterMethod - passed
+
+INFO  GetAllUsersTest setUp - setting up remote web service
+INFO  GetAllUsersTest setUp - Web service type : SOAP
+INFO  GetAllUsersTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getAllUsers - getAllUsers
+INFO  UserServiceBO isResponseSuccess - message : "Get all users successful"
+INFO  TestBase afterMethod - passed
+
+INFO  GetAllUsersTest setUp - setting up remote web service
+INFO  GetAllUsersTest setUp - Web service type : REST
+INFO  GetAllUsersTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getAllUsers - getAllUsers
+INFO  UserServiceBO isResponseSuccess - message : "Get all users successful"
+INFO  TestBase afterMethod - passed
+
+INFO  UserServiceTest info - setting up remote web service
+INFO  UserServiceTest info - Web service type : REST
+INFO  UserServiceTest info - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : email = dog4@gmail.com, password = qwerty
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : id=9
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : role=admin
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : email = dog4@gmail.com, password = qwerty
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : email=jik1450087380067@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName
+INFO  TestBase afterMethod - passed
+
+INFO  UserServiceTest info - setting up remote web service
+INFO  UserServiceTest info - Web service type : SOAP
+INFO  UserServiceTest info - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : email = dog4@gmail.com, password = qwerty
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : id=10
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : role=admin
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : email = dog4@gmail.com, password = qwerty
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : email=jik1450087380582@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName
+INFO  TestBase afterMethod - passed
+
+INFO  LoginUserTest setUp - setting up remote web service
+INFO  LoginUserTest setUp - Web service type : SOAP
+INFO  LoginUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginNoExistUser - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO login - login user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseFault - message : "User email and/or password are/is incorrect, please try again"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginPositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  LoginUserTest setUp - setting up remote web service
+INFO  LoginUserTest setUp - Web service type : REST
+INFO  LoginUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginNoExistUser - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO login - login user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseFault - message : "User email and/or password are/is incorrect, please try again"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginPositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  RegistrationUserTest setUp - setting up remote web service
+INFO  RegistrationUserTest setUp - Web service type : SOAP
+INFO  RegistrationUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterExistingUserNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Such user already exists in a system. Use another email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterPositive - PARAMS : User{email='email1450087380668@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='email1450087380668@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Registration successful"
+INFO  UserServiceBO login - login user : User{email='email1450087380668@gmail.com', fistName='test4', id=11, lastName='testLast4', password='qwerty', roles=[Role{id=2, name='user'}]}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  RegistrationUserTest setUp - setting up remote web service
+INFO  RegistrationUserTest setUp - Web service type : REST
+INFO  RegistrationUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterExistingUserNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Such user already exists in a system. Use another email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterPositive - PARAMS : User{email='email1450087380705@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='email1450087380705@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Registration successful"
+INFO  UserServiceBO login - login user : User{email='email1450087380705@gmail.com', fistName='test4', id=12, lastName='testLast4', password='qwerty', roles=[Role{id=2, name='user'}]}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  AuthorizeUserTest setUp - setting up remote web service
+INFO  AuthorizeUserTest setUp - Web service type : SOAP
+INFO  AuthorizeUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeNoExistNegative - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Guest has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizePositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "User has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  AuthorizeUserTest setUp - setting up remote web service
+INFO  AuthorizeUserTest setUp - Web service type : REST
+INFO  AuthorizeUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeNoExistNegative - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Guest has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizePositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "User has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  DeleteUserTest setUp - setting up remote web service
+INFO  DeleteUserTest setUp - Web service type : SOAP
+INFO  DeleteUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteInvalidIdNegative - PARAMS : id=-1
+INFO  UserServiceBO delete - delete user with id : -1
+INFO  UserServiceBO isResponseFault - message : "Invalid input data type for id=-1"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteNoExistUserNegative - PARAMS : id=15684
+INFO  UserServiceBO delete - delete user with id : 15684
+INFO  UserServiceBO isResponseFault - message : "User cannot be deleted"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteUserPositive - PARAMS : No params
+INFO  UserServiceBO register - register user : User{email='email1450087380795@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO delete - delete user with id : 13
+INFO  UserServiceBO isResponseSuccess - message : "User has been deleted successfully, User_ID = 13"
+INFO  TestBase afterMethod - passed
+
+INFO  DeleteUserTest setUp - setting up remote web service
+INFO  DeleteUserTest setUp - Web service type : REST
+INFO  DeleteUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteInvalidIdNegative - PARAMS : id=-1
+INFO  UserServiceBO delete - delete user with id : -1
+INFO  UserServiceBO isResponseFault - message : "Invalid input data type for id=-1"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteNoExistUserNegative - PARAMS : id=15684
+INFO  UserServiceBO delete - delete user with id : 15684
+INFO  UserServiceBO isResponseFault - message : "User cannot be deleted"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteUserPositive - PARAMS : No params
+INFO  UserServiceBO register - register user : User{email='email1450087380823@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO delete - delete user with id : 13
+INFO  UserServiceBO isResponseSuccess - message : "User has been deleted successfully, User_ID = 13"
+INFO  TestBase afterMethod - passed
+
+INFO  GetUsersByRoleNameTest setUp - setting up remote web service
+INFO  GetUsersByRoleNameTest setUp - Web service type : SOAP
+INFO  GetUsersByRoleNameTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : userss
+INFO  UserServiceBO isResponseFault - message : "Invalid role name, Role = [userss]"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : user
+INFO  UserServiceBO isResponseSuccess - message : "Users for role user successfully found"
+INFO  TestBase afterMethod - passed
+
+INFO  GetUsersByRoleNameTest setUp - setting up remote web service
+INFO  GetUsersByRoleNameTest setUp - Web service type : REST
+INFO  GetUsersByRoleNameTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : userss
+INFO  UserServiceBO isResponseFault - message : "Invalid role name, Role = [userss]"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : user
+INFO  UserServiceBO isResponseSuccess - message : "Users for role user successfully found"
+INFO  TestBase afterMethod - passed
+
+INFO  GetAllUsersTest setUp - setting up remote web service
+INFO  GetAllUsersTest setUp - Web service type : SOAP
+INFO  GetAllUsersTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getAllUsers - getAllUsers
+INFO  UserServiceBO isResponseSuccess - message : "Get all users successful"
+INFO  TestBase afterMethod - passed
+
+INFO  GetAllUsersTest setUp - setting up remote web service
+INFO  GetAllUsersTest setUp - Web service type : REST
+INFO  GetAllUsersTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getAllUsers - getAllUsers
+INFO  UserServiceBO isResponseSuccess - message : "Get all users successful"
+INFO  TestBase afterMethod - passed
+
+INFO  UserServiceTest info - setting up remote web service
+INFO  UserServiceTest info - Web service type : REST
+INFO  UserServiceTest info - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : email = dog4@gmail.com, password = qwerty
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : id=5
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : role=admin
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : email = dog4@gmail.com, password = qwerty
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : email=jik1450093059152@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName
+INFO  TestBase afterMethod - passed
+
+INFO  UserServiceTest info - setting up remote web service
+INFO  UserServiceTest info - Web service type : SOAP
+INFO  UserServiceTest info - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : email = dog4@gmail.com, password = qwerty
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : id=6
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : role=admin
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : email = dog4@gmail.com, password = qwerty
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceTest info - params : email=jik1450093059721@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName
+INFO  TestBase afterMethod - passed
+
+INFO  LoginUserTest setUp - setting up remote web service
+INFO  LoginUserTest setUp - Web service type : SOAP
+INFO  LoginUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginNoExistUser - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO login - login user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseFault - message : "User email and/or password are/is incorrect, please try again"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginPositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  LoginUserTest setUp - setting up remote web service
+INFO  LoginUserTest setUp - Web service type : REST
+INFO  LoginUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginNoExistUser - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO login - login user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseFault - message : "User email and/or password are/is incorrect, please try again"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  LoginUserTest testLoginPositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO login - login user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  RegistrationUserTest setUp - setting up remote web service
+INFO  RegistrationUserTest setUp - Web service type : SOAP
+INFO  RegistrationUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterExistingUserNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Such user already exists in a system. Use another email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterPositive - PARAMS : User{email='email1450093059811@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='email1450093059811@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Registration successful"
+INFO  UserServiceBO login - login user : User{email='email1450093059811@gmail.com', fistName='test4', id=7, lastName='testLast4', password='qwerty', roles=[Role{id=2, name='user'}]}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  RegistrationUserTest setUp - setting up remote web service
+INFO  RegistrationUserTest setUp - Web service type : REST
+INFO  RegistrationUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterExistingUserNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Such user already exists in a system. Use another email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  RegistrationUserTest testRegisterPositive - PARAMS : User{email='email1450093059854@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO register - register user : User{email='email1450093059854@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Registration successful"
+INFO  UserServiceBO login - login user : User{email='email1450093059854@gmail.com', fistName='test4', id=8, lastName='testLast4', password='qwerty', roles=[Role{id=2, name='user'}]}
+INFO  UserServiceBO isResponseSuccess - message : "Login successful"
+INFO  TestBase afterMethod - passed
+
+INFO  AuthorizeUserTest setUp - setting up remote web service
+INFO  AuthorizeUserTest setUp - Web service type : SOAP
+INFO  AuthorizeUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeNoExistNegative - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Guest has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizePositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "User has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  AuthorizeUserTest setUp - setting up remote web service
+INFO  AuthorizeUserTest setUp - Web service type : REST
+INFO  AuthorizeUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyEmailNegative - PARAMS : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid email"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeEmptyPasswordNegative - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='', roles=null}
+INFO  UserServiceBO isResponseFault - message : "Invalid password. Password should contain at least 6 letters."
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizeNoExistNegative - PARAMS : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='doasfasfg4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='asfsaf', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "Guest has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  AuthorizeUserTest testAuthorizePositive - PARAMS : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO authorize - authorize user : User{email='dog4@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO isResponseSuccess - message : "User has been authorised successful"
+INFO  TestBase afterMethod - passed
+
+INFO  DeleteUserTest setUp - setting up remote web service
+INFO  DeleteUserTest setUp - Web service type : SOAP
+INFO  DeleteUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteInvalidIdNegative - PARAMS : id=-1
+INFO  UserServiceBO delete - delete user with id : -1
+INFO  UserServiceBO isResponseFault - message : "Invalid input data type for id=-1"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteNoExistUserNegative - PARAMS : id=15684
+INFO  UserServiceBO delete - delete user with id : 15684
+INFO  UserServiceBO isResponseFault - message : "User cannot be deleted"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteUserPositive - PARAMS : No params
+INFO  UserServiceBO register - register user : User{email='email1450093059950@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO delete - delete user with id : 9
+INFO  UserServiceBO isResponseSuccess - message : "User has been deleted successfully, User_ID = 9"
+INFO  TestBase afterMethod - passed
+
+INFO  DeleteUserTest setUp - setting up remote web service
+INFO  DeleteUserTest setUp - Web service type : REST
+INFO  DeleteUserTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteInvalidIdNegative - PARAMS : id=-1
+INFO  UserServiceBO delete - delete user with id : -1
+INFO  UserServiceBO isResponseFault - message : "Invalid input data type for id=-1"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteNoExistUserNegative - PARAMS : id=15684
+INFO  UserServiceBO delete - delete user with id : 15684
+INFO  UserServiceBO isResponseFault - message : "User cannot be deleted"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  DeleteUserTest testDeleteUserPositive - PARAMS : No params
+INFO  UserServiceBO register - register user : User{email='email1450093059980@gmail.com', fistName='test4', id=0, lastName='testLast4', password='qwerty', roles=null}
+INFO  UserServiceBO delete - delete user with id : 9
+INFO  UserServiceBO isResponseSuccess - message : "User has been deleted successfully, User_ID = 9"
+INFO  TestBase afterMethod - passed
+
+INFO  GetUsersByRoleNameTest setUp - setting up remote web service
+INFO  GetUsersByRoleNameTest setUp - Web service type : SOAP
+INFO  GetUsersByRoleNameTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : userss
+INFO  UserServiceBO isResponseFault - message : "Invalid role name, Role = [userss]"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : user
+INFO  UserServiceBO isResponseSuccess - message : "Users for role user successfully found"
+INFO  TestBase afterMethod - passed
+
+INFO  GetUsersByRoleNameTest setUp - setting up remote web service
+INFO  GetUsersByRoleNameTest setUp - Web service type : REST
+INFO  GetUsersByRoleNameTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : userss
+INFO  UserServiceBO isResponseFault - message : "Invalid role name, Role = [userss]"
+INFO  TestBase afterMethod - passed
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getUsersByRoleName - getUsersByRoleName role : user
+INFO  UserServiceBO isResponseSuccess - message : "Users for role user successfully found"
+INFO  TestBase afterMethod - passed
+
+INFO  GetAllUsersTest setUp - setting up remote web service
+INFO  GetAllUsersTest setUp - Web service type : SOAP
+INFO  GetAllUsersTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getAllUsers - getAllUsers
+INFO  UserServiceBO isResponseSuccess - message : "Get all users successful"
+INFO  TestBase afterMethod - passed
+
+INFO  GetAllUsersTest setUp - setting up remote web service
+INFO  GetAllUsersTest setUp - Web service type : REST
+INFO  GetAllUsersTest setUp - connection to remote web service successful
+
+INFO  TestBase beforeMethod - started
+INFO  UserServiceBO getAllUsers - getAllUsers
+INFO  UserServiceBO isResponseSuccess - message : "Get all users successful"
+INFO  TestBase afterMethod - passed
+

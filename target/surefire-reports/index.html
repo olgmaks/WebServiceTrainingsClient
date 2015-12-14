@@ -1,0 +1,1967 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestAll">
+              <span class="suite-name border-passed">TestAll</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestAll">
+                    <span>D:\workspace\OlehMaksymukClient\src\test\resources\user-service-test.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestAll">
+                    <span class="test-stats">14 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestAll">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestAll">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestAll">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestAll">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestAll">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">48 methods,   48 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestAll" class="hide-methods passed suite-TestAll"> (hide)</a> <!-- hide-methods passed suite-TestAll -->
+                      <a href="#" panel-name="suite-TestAll" class="show-methods passed suite-TestAll"> (show)</a> <!-- show-methods passed suite-TestAll -->
+                    </span>
+                    <div class="method-list-content passed suite-TestAll">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.AuthorizeUserTest" hash-for-method="testAuthorizeEmptyEmailNegative">testAuthorizeEmptyEmailNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.AuthorizeUserTest" hash-for-method="testAuthorizeEmptyEmailNegative">testAuthorizeEmptyEmailNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.AuthorizeUserTest" hash-for-method="testAuthorizeEmptyPasswordNegative">testAuthorizeEmptyPasswordNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.AuthorizeUserTest" hash-for-method="testAuthorizeEmptyPasswordNegative">testAuthorizeEmptyPasswordNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.AuthorizeUserTest" hash-for-method="testAuthorizeNoExistNegative">testAuthorizeNoExistNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.AuthorizeUserTest" hash-for-method="testAuthorizeNoExistNegative">testAuthorizeNoExistNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.AuthorizeUserTest" hash-for-method="testAuthorizePositive">testAuthorizePositive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.AuthorizeUserTest" hash-for-method="testAuthorizePositive">testAuthorizePositive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.unit.UserServiceTest" hash-for-method="testAuthorizeUser">testAuthorizeUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.unit.UserServiceTest" hash-for-method="testAuthorizeUser">testAuthorizeUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.DeleteUserTest" hash-for-method="testDeleteInvalidIdNegative">testDeleteInvalidIdNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.DeleteUserTest" hash-for-method="testDeleteInvalidIdNegative">testDeleteInvalidIdNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.DeleteUserTest" hash-for-method="testDeleteNoExistUserNegative">testDeleteNoExistUserNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.DeleteUserTest" hash-for-method="testDeleteNoExistUserNegative">testDeleteNoExistUserNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.unit.UserServiceTest" hash-for-method="testDeleteUser">testDeleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.unit.UserServiceTest" hash-for-method="testDeleteUser">testDeleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.DeleteUserTest" hash-for-method="testDeleteUserPositive">testDeleteUserPositive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.DeleteUserTest" hash-for-method="testDeleteUserPositive">testDeleteUserPositive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.unit.UserServiceTest" hash-for-method="testGetAllUser">testGetAllUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.unit.UserServiceTest" hash-for-method="testGetAllUser">testGetAllUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.GetAllUsersTest" hash-for-method="testGetAllUsersPositive">testGetAllUsersPositive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.GetAllUsersTest" hash-for-method="testGetAllUsersPositive">testGetAllUsersPositive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.GetUsersByRoleNameTest" hash-for-method="testGetUserByRoleNameNegative">testGetUserByRoleNameNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.GetUsersByRoleNameTest" hash-for-method="testGetUserByRoleNameNegative">testGetUserByRoleNameNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.unit.UserServiceTest" hash-for-method="testGetUsersByRoleName">testGetUsersByRoleName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.unit.UserServiceTest" hash-for-method="testGetUsersByRoleName">testGetUsersByRoleName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.GetUsersByRoleNameTest" hash-for-method="testGetUsersByRoleNamePositive">testGetUsersByRoleNamePositive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.GetUsersByRoleNameTest" hash-for-method="testGetUsersByRoleNamePositive">testGetUsersByRoleNamePositive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.LoginUserTest" hash-for-method="testLoginEmptyEmailNegative">testLoginEmptyEmailNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.LoginUserTest" hash-for-method="testLoginEmptyEmailNegative">testLoginEmptyEmailNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.LoginUserTest" hash-for-method="testLoginEmptyPasswordNegative">testLoginEmptyPasswordNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.LoginUserTest" hash-for-method="testLoginEmptyPasswordNegative">testLoginEmptyPasswordNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.LoginUserTest" hash-for-method="testLoginNoExistUser">testLoginNoExistUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.LoginUserTest" hash-for-method="testLoginNoExistUser">testLoginNoExistUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.LoginUserTest" hash-for-method="testLoginPositive">testLoginPositive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.LoginUserTest" hash-for-method="testLoginPositive">testLoginPositive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.unit.UserServiceTest" hash-for-method="testLoginUser">testLoginUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.unit.UserServiceTest" hash-for-method="testLoginUser">testLoginUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.RegistrationUserTest" hash-for-method="testRegisterEmptyEmailNegative">testRegisterEmptyEmailNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.RegistrationUserTest" hash-for-method="testRegisterEmptyEmailNegative">testRegisterEmptyEmailNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.RegistrationUserTest" hash-for-method="testRegisterEmptyPasswordNegative">testRegisterEmptyPasswordNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.RegistrationUserTest" hash-for-method="testRegisterEmptyPasswordNegative">testRegisterEmptyPasswordNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.RegistrationUserTest" hash-for-method="testRegisterExistingUserNegative">testRegisterExistingUserNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.RegistrationUserTest" hash-for-method="testRegisterExistingUserNegative">testRegisterExistingUserNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.RegistrationUserTest" hash-for-method="testRegisterPositive">testRegisterPositive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.integration.RegistrationUserTest" hash-for-method="testRegisterPositive">testRegisterPositive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.unit.UserServiceTest" hash-for-method="testRegisterUser">testRegisterUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.epam.unit.UserServiceTest" hash-for-method="testRegisterUser">testRegisterUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestAll -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestAll" class="panel TestAll">
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.integration.LoginUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginEmptyEmailNegative">
+                  </a> <!-- testLoginEmptyEmailNegative -->
+                  <span class="method-name">testLoginEmptyEmailNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginEmptyEmailNegative">
+                  </a> <!-- testLoginEmptyEmailNegative -->
+                  <span class="method-name">testLoginEmptyEmailNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginEmptyPasswordNegative">
+                  </a> <!-- testLoginEmptyPasswordNegative -->
+                  <span class="method-name">testLoginEmptyPasswordNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginEmptyPasswordNegative">
+                  </a> <!-- testLoginEmptyPasswordNegative -->
+                  <span class="method-name">testLoginEmptyPasswordNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginNoExistUser">
+                  </a> <!-- testLoginNoExistUser -->
+                  <span class="method-name">testLoginNoExistUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginNoExistUser">
+                  </a> <!-- testLoginNoExistUser -->
+                  <span class="method-name">testLoginNoExistUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginPositive">
+                  </a> <!-- testLoginPositive -->
+                  <span class="method-name">testLoginPositive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginPositive">
+                  </a> <!-- testLoginPositive -->
+                  <span class="method-name">testLoginPositive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.integration.GetUsersByRoleNameTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserByRoleNameNegative">
+                  </a> <!-- testGetUserByRoleNameNegative -->
+                  <span class="method-name">testGetUserByRoleNameNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserByRoleNameNegative">
+                  </a> <!-- testGetUserByRoleNameNegative -->
+                  <span class="method-name">testGetUserByRoleNameNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUsersByRoleNamePositive">
+                  </a> <!-- testGetUsersByRoleNamePositive -->
+                  <span class="method-name">testGetUsersByRoleNamePositive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUsersByRoleNamePositive">
+                  </a> <!-- testGetUsersByRoleNamePositive -->
+                  <span class="method-name">testGetUsersByRoleNamePositive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.integration.RegistrationUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterEmptyEmailNegative">
+                  </a> <!-- testRegisterEmptyEmailNegative -->
+                  <span class="method-name">testRegisterEmptyEmailNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterEmptyEmailNegative">
+                  </a> <!-- testRegisterEmptyEmailNegative -->
+                  <span class="method-name">testRegisterEmptyEmailNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterEmptyPasswordNegative">
+                  </a> <!-- testRegisterEmptyPasswordNegative -->
+                  <span class="method-name">testRegisterEmptyPasswordNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterEmptyPasswordNegative">
+                  </a> <!-- testRegisterEmptyPasswordNegative -->
+                  <span class="method-name">testRegisterEmptyPasswordNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterExistingUserNegative">
+                  </a> <!-- testRegisterExistingUserNegative -->
+                  <span class="method-name">testRegisterExistingUserNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterExistingUserNegative">
+                  </a> <!-- testRegisterExistingUserNegative -->
+                  <span class="method-name">testRegisterExistingUserNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterPositive">
+                  </a> <!-- testRegisterPositive -->
+                  <span class="method-name">testRegisterPositive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterPositive">
+                  </a> <!-- testRegisterPositive -->
+                  <span class="method-name">testRegisterPositive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.integration.AuthorizeUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAuthorizeEmptyEmailNegative">
+                  </a> <!-- testAuthorizeEmptyEmailNegative -->
+                  <span class="method-name">testAuthorizeEmptyEmailNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAuthorizeEmptyEmailNegative">
+                  </a> <!-- testAuthorizeEmptyEmailNegative -->
+                  <span class="method-name">testAuthorizeEmptyEmailNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAuthorizeEmptyPasswordNegative">
+                  </a> <!-- testAuthorizeEmptyPasswordNegative -->
+                  <span class="method-name">testAuthorizeEmptyPasswordNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAuthorizeEmptyPasswordNegative">
+                  </a> <!-- testAuthorizeEmptyPasswordNegative -->
+                  <span class="method-name">testAuthorizeEmptyPasswordNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAuthorizeNoExistNegative">
+                  </a> <!-- testAuthorizeNoExistNegative -->
+                  <span class="method-name">testAuthorizeNoExistNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAuthorizeNoExistNegative">
+                  </a> <!-- testAuthorizeNoExistNegative -->
+                  <span class="method-name">testAuthorizeNoExistNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAuthorizePositive">
+                  </a> <!-- testAuthorizePositive -->
+                  <span class="method-name">testAuthorizePositive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAuthorizePositive">
+                  </a> <!-- testAuthorizePositive -->
+                  <span class="method-name">testAuthorizePositive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.integration.DeleteUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteInvalidIdNegative">
+                  </a> <!-- testDeleteInvalidIdNegative -->
+                  <span class="method-name">testDeleteInvalidIdNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteInvalidIdNegative">
+                  </a> <!-- testDeleteInvalidIdNegative -->
+                  <span class="method-name">testDeleteInvalidIdNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteNoExistUserNegative">
+                  </a> <!-- testDeleteNoExistUserNegative -->
+                  <span class="method-name">testDeleteNoExistUserNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteNoExistUserNegative">
+                  </a> <!-- testDeleteNoExistUserNegative -->
+                  <span class="method-name">testDeleteNoExistUserNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUserPositive">
+                  </a> <!-- testDeleteUserPositive -->
+                  <span class="method-name">testDeleteUserPositive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUserPositive">
+                  </a> <!-- testDeleteUserPositive -->
+                  <span class="method-name">testDeleteUserPositive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.unit.UserServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAuthorizeUser">
+                  </a> <!-- testAuthorizeUser -->
+                  <span class="method-name">testAuthorizeUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAuthorizeUser">
+                  </a> <!-- testAuthorizeUser -->
+                  <span class="method-name">testAuthorizeUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUser">
+                  </a> <!-- testDeleteUser -->
+                  <span class="method-name">testDeleteUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUser">
+                  </a> <!-- testDeleteUser -->
+                  <span class="method-name">testDeleteUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllUser">
+                  </a> <!-- testGetAllUser -->
+                  <span class="method-name">testGetAllUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllUser">
+                  </a> <!-- testGetAllUser -->
+                  <span class="method-name">testGetAllUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUsersByRoleName">
+                  </a> <!-- testGetUsersByRoleName -->
+                  <span class="method-name">testGetUsersByRoleName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUsersByRoleName">
+                  </a> <!-- testGetUsersByRoleName -->
+                  <span class="method-name">testGetUsersByRoleName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginUser">
+                  </a> <!-- testLoginUser -->
+                  <span class="method-name">testLoginUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginUser">
+                  </a> <!-- testLoginUser -->
+                  <span class="method-name">testLoginUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterUser">
+                  </a> <!-- testRegisterUser -->
+                  <span class="method-name">testRegisterUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterUser">
+                  </a> <!-- testRegisterUser -->
+                  <span class="method-name">testRegisterUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.integration.GetAllUsersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllUsersPositive">
+                  </a> <!-- testGetAllUsersPositive -->
+                  <span class="method-name">testGetAllUsersPositive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllUsersPositive">
+                  </a> <!-- testGetAllUsersPositive -->
+                  <span class="method-name">testGetAllUsersPositive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+        </div> <!-- panel TestAll -->
+        <div panel-name="test-xml-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\workspace\OlehMaksymukClient\src\test\resources\user-service-test.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;TestAll&quot;&gt;
+  &lt;test name=&quot;UserServiceRESTUnitTest&quot;&gt;
+    &lt;parameter name=&quot;serviceType&quot; value=&quot;REST&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.unit.UserServiceTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UserServiceRESTUnitTest --&gt;
+  &lt;test name=&quot;UserServiceSOAPUnitTest&quot;&gt;
+    &lt;parameter name=&quot;serviceType&quot; value=&quot;SOAP&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.unit.UserServiceTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UserServiceSOAPUnitTest --&gt;
+  &lt;test name=&quot;LoginServiceSOAPIntegrationTest&quot;&gt;
+    &lt;parameter name=&quot;serviceType&quot; value=&quot;SOAP&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.integration.LoginUserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginServiceSOAPIntegrationTest --&gt;
+  &lt;test name=&quot;LoginServiceRESTIntegrationTest&quot;&gt;
+    &lt;parameter name=&quot;serviceType&quot; value=&quot;REST&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.integration.LoginUserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginServiceRESTIntegrationTest --&gt;
+  &lt;test name=&quot;RegistrationServiceSOAPIntegrationTest&quot;&gt;
+    &lt;parameter name=&quot;serviceType&quot; value=&quot;SOAP&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.integration.RegistrationUserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RegistrationServiceSOAPIntegrationTest --&gt;
+  &lt;test name=&quot;RegistrationServiceRESTIntegrationTest&quot;&gt;
+    &lt;parameter name=&quot;serviceType&quot; value=&quot;REST&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.integration.RegistrationUserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RegistrationServiceRESTIntegrationTest --&gt;
+  &lt;test name=&quot;AuthorizeServiceSOAPIntegrationTest&quot;&gt;
+    &lt;parameter name=&quot;serviceType&quot; value=&quot;SOAP&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.integration.AuthorizeUserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AuthorizeServiceSOAPIntegrationTest --&gt;
+  &lt;test name=&quot;AuthorizeServiceRESTIntegrationTest&quot;&gt;
+    &lt;parameter name=&quot;serviceType&quot; value=&quot;REST&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.integration.AuthorizeUserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AuthorizeServiceRESTIntegrationTest --&gt;
+  &lt;test name=&quot;DeleteUserSOAPIntegrationTest&quot;&gt;
+    &lt;parameter name=&quot;serviceType&quot; value=&quot;SOAP&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.integration.DeleteUserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DeleteUserSOAPIntegrationTest --&gt;
+  &lt;test name=&quot;DeleteUserRESTIntegrationTest&quot;&gt;
+    &lt;parameter name=&quot;serviceType&quot; value=&quot;REST&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.integration.DeleteUserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DeleteUserRESTIntegrationTest --&gt;
+  &lt;test name=&quot;GetUsersByRoleNameSOAPIntegrationTest&quot;&gt;
+    &lt;parameter name=&quot;serviceType&quot; value=&quot;SOAP&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.integration.GetUsersByRoleNameTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GetUsersByRoleNameSOAPIntegrationTest --&gt;
+  &lt;test name=&quot;GetUsersByRoleNameRESTIntegrationTest&quot;&gt;
+    &lt;parameter name=&quot;serviceType&quot; value=&quot;REST&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.integration.GetUsersByRoleNameTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GetUsersByRoleNameRESTIntegrationTest --&gt;
+  &lt;test name=&quot;GetAllUsersSOAPIntegrationTest&quot;&gt;
+    &lt;parameter name=&quot;serviceType&quot; value=&quot;SOAP&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.integration.GetAllUsersTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GetAllUsersSOAPIntegrationTest --&gt;
+  &lt;test name=&quot;GetAllUsersRESTIntegrationTest&quot;&gt;
+    &lt;parameter name=&quot;serviceType&quot; value=&quot;REST&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.integration.GetAllUsersTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GetAllUsersRESTIntegrationTest --&gt;
+&lt;/suite&gt; &lt;!-- TestAll --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">UserServiceRESTUnitTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">UserServiceSOAPUnitTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginServiceSOAPIntegrationTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginServiceRESTIntegrationTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RegistrationServiceSOAPIntegrationTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RegistrationServiceRESTIntegrationTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AuthorizeServiceSOAPIntegrationTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AuthorizeServiceRESTIntegrationTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DeleteUserSOAPIntegrationTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DeleteUserRESTIntegrationTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">GetUsersByRoleNameSOAPIntegrationTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">GetUsersByRoleNameRESTIntegrationTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">GetAllUsersSOAPIntegrationTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">GetAllUsersRESTIntegrationTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestAll');
+function tableData_TestAll() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(48);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testAuthorizeUser')
+data.setCell(0, 2, 'com.epam.unit.UserServiceTest')
+data.setCell(0, 3, 384);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testAuthorizeUser')
+data.setCell(1, 2, 'com.epam.unit.UserServiceTest')
+data.setCell(1, 3, 78);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGetUsersByRoleNamePositive')
+data.setCell(2, 2, 'com.epam.integration.GetUsersByRoleNameTest')
+data.setCell(2, 3, 23);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testDeleteUser')
+data.setCell(3, 2, 'com.epam.unit.UserServiceTest')
+data.setCell(3, 3, 22);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testGetUsersByRoleName')
+data.setCell(4, 2, 'com.epam.unit.UserServiceTest')
+data.setCell(4, 3, 20);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testRegisterPositive')
+data.setCell(5, 2, 'com.epam.integration.RegistrationUserTest')
+data.setCell(5, 3, 19);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testDeleteUserPositive')
+data.setCell(6, 2, 'com.epam.integration.DeleteUserTest')
+data.setCell(6, 3, 16);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testGetAllUser')
+data.setCell(7, 2, 'com.epam.unit.UserServiceTest')
+data.setCell(7, 3, 12);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testGetAllUsersPositive')
+data.setCell(8, 2, 'com.epam.integration.GetAllUsersTest')
+data.setCell(8, 3, 11);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testLoginUser')
+data.setCell(9, 2, 'com.epam.unit.UserServiceTest')
+data.setCell(9, 3, 9);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testRegisterUser')
+data.setCell(10, 2, 'com.epam.unit.UserServiceTest')
+data.setCell(10, 3, 9);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testLoginEmptyEmailNegative')
+data.setCell(11, 2, 'com.epam.integration.LoginUserTest')
+data.setCell(11, 3, 9);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testLoginPositive')
+data.setCell(12, 2, 'com.epam.integration.LoginUserTest')
+data.setCell(12, 3, 9);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testRegisterEmptyEmailNegative')
+data.setCell(13, 2, 'com.epam.integration.RegistrationUserTest')
+data.setCell(13, 3, 9);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testRegisterEmptyPasswordNegative')
+data.setCell(14, 2, 'com.epam.integration.RegistrationUserTest')
+data.setCell(14, 3, 9);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testAuthorizeEmptyEmailNegative')
+data.setCell(15, 2, 'com.epam.integration.AuthorizeUserTest')
+data.setCell(15, 3, 9);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testLoginNoExistUser')
+data.setCell(16, 2, 'com.epam.integration.LoginUserTest')
+data.setCell(16, 3, 8);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testLoginEmptyPasswordNegative')
+data.setCell(17, 2, 'com.epam.integration.LoginUserTest')
+data.setCell(17, 3, 8);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testRegisterPositive')
+data.setCell(18, 2, 'com.epam.integration.RegistrationUserTest')
+data.setCell(18, 3, 8);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testRegisterExistingUserNegative')
+data.setCell(19, 2, 'com.epam.integration.RegistrationUserTest')
+data.setCell(19, 3, 8);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testAuthorizeNoExistNegative')
+data.setCell(20, 2, 'com.epam.integration.AuthorizeUserTest')
+data.setCell(20, 3, 8);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testAuthorizeEmptyPasswordNegative')
+data.setCell(21, 2, 'com.epam.integration.AuthorizeUserTest')
+data.setCell(21, 3, 8);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testAuthorizePositive')
+data.setCell(22, 2, 'com.epam.integration.AuthorizeUserTest')
+data.setCell(22, 3, 8);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testDeleteNoExistUserNegative')
+data.setCell(23, 2, 'com.epam.integration.DeleteUserTest')
+data.setCell(23, 3, 8);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testDeleteInvalidIdNegative')
+data.setCell(24, 2, 'com.epam.integration.DeleteUserTest')
+data.setCell(24, 3, 8);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testGetUserByRoleNameNegative')
+data.setCell(25, 2, 'com.epam.integration.GetUsersByRoleNameTest')
+data.setCell(25, 3, 8);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testDeleteUser')
+data.setCell(26, 2, 'com.epam.unit.UserServiceTest')
+data.setCell(26, 3, 7);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testDeleteUserPositive')
+data.setCell(27, 2, 'com.epam.integration.DeleteUserTest')
+data.setCell(27, 3, 7);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testGetUsersByRoleNamePositive')
+data.setCell(28, 2, 'com.epam.integration.GetUsersByRoleNameTest')
+data.setCell(28, 3, 6);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testGetAllUsersPositive')
+data.setCell(29, 2, 'com.epam.integration.GetAllUsersTest')
+data.setCell(29, 3, 6);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testAuthorizeEmptyEmailNegative')
+data.setCell(30, 2, 'com.epam.integration.AuthorizeUserTest')
+data.setCell(30, 3, 5);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testGetUsersByRoleName')
+data.setCell(31, 2, 'com.epam.unit.UserServiceTest')
+data.setCell(31, 3, 4);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testRegisterUser')
+data.setCell(32, 2, 'com.epam.unit.UserServiceTest')
+data.setCell(32, 3, 4);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testGetAllUser')
+data.setCell(33, 2, 'com.epam.unit.UserServiceTest')
+data.setCell(33, 3, 4);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testLoginEmptyEmailNegative')
+data.setCell(34, 2, 'com.epam.integration.LoginUserTest')
+data.setCell(34, 3, 4);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testLoginPositive')
+data.setCell(35, 2, 'com.epam.integration.LoginUserTest')
+data.setCell(35, 3, 4);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testRegisterExistingUserNegative')
+data.setCell(36, 2, 'com.epam.integration.RegistrationUserTest')
+data.setCell(36, 3, 4);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testRegisterEmptyEmailNegative')
+data.setCell(37, 2, 'com.epam.integration.RegistrationUserTest')
+data.setCell(37, 3, 4);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testRegisterEmptyPasswordNegative')
+data.setCell(38, 2, 'com.epam.integration.RegistrationUserTest')
+data.setCell(38, 3, 4);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testAuthorizePositive')
+data.setCell(39, 2, 'com.epam.integration.AuthorizeUserTest')
+data.setCell(39, 3, 4);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testDeleteNoExistUserNegative')
+data.setCell(40, 2, 'com.epam.integration.DeleteUserTest')
+data.setCell(40, 3, 4);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testLoginUser')
+data.setCell(41, 2, 'com.epam.unit.UserServiceTest')
+data.setCell(41, 3, 3);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testLoginEmptyPasswordNegative')
+data.setCell(42, 2, 'com.epam.integration.LoginUserTest')
+data.setCell(42, 3, 3);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testLoginNoExistUser')
+data.setCell(43, 2, 'com.epam.integration.LoginUserTest')
+data.setCell(43, 3, 3);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testAuthorizeNoExistNegative')
+data.setCell(44, 2, 'com.epam.integration.AuthorizeUserTest')
+data.setCell(44, 3, 3);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testAuthorizeEmptyPasswordNegative')
+data.setCell(45, 2, 'com.epam.integration.AuthorizeUserTest')
+data.setCell(45, 3, 3);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testGetUserByRoleNameNegative')
+data.setCell(46, 2, 'com.epam.integration.GetUsersByRoleNameTest')
+data.setCell(46, 3, 3);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testDeleteInvalidIdNegative')
+data.setCell(47, 2, 'com.epam.integration.DeleteUserTest')
+data.setCell(47, 3, 2);
+window.suiteTableData['TestAll']= { tableData: data, tableDiv: 'times-div-TestAll'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 819 ms</span>
+              <div id="times-div-TestAll">
+              </div> <!-- times-div-TestAll -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDeleteUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">params : id=5</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAuthorizeUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">params : email = dog4@gmail.com, password = qwerty</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testLoginUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">params : email = dog4@gmail.com, password = qwerty</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testGetUsersByRoleName</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">params : role=admin</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testRegisterUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">params : email=jik1450093059152@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testGetUsersByRoleName</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">params : role=admin</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDeleteUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">params : id=6</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testRegisterUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">params : email=jik1450093059721@yandex.ru, password=qwerty, firstName=testFirstName, lastName=testLastName</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testLoginUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">params : email = dog4@gmail.com, password = qwerty</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAuthorizeUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">params : email = dog4@gmail.com, password = qwerty</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.unit.UserServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(org.testng.TestRunner@19e51abf)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(REST)</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.unit.UserServiceTest.testAuthorizeUser())</span>
+                <span class="method-start">132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAuthorizeUser</span>
+                <span class="method-start">132 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testAuthorizeUser status=SUCCESS method=UserServiceTest.testAuthorizeUser()[pri:0, ...)</span>
+                <span class="method-start">516 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.unit.UserServiceTest.testDeleteUser())</span>
+                <span class="method-start">517 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteUser</span>
+                <span class="method-start">517 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testDeleteUser status=SUCCESS method=UserServiceTest.testDeleteUser()[pri:0, instan...)</span>
+                <span class="method-start">539 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.unit.UserServiceTest.testGetAllUser())</span>
+                <span class="method-start">540 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetAllUser</span>
+                <span class="method-start">540 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testGetAllUser status=SUCCESS method=UserServiceTest.testGetAllUser()[pri:0, instan...)</span>
+                <span class="method-start">552 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.unit.UserServiceTest.testGetUsersByRoleName())</span>
+                <span class="method-start">553 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetUsersByRoleName</span>
+                <span class="method-start">553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testGetUsersByRoleName status=SUCCESS method=UserServiceTest.testGetUsersByRoleName...)</span>
+                <span class="method-start">573 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.unit.UserServiceTest.testLoginUser())</span>
+                <span class="method-start">573 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginUser</span>
+                <span class="method-start">574 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testLoginUser status=SUCCESS method=UserServiceTest.testLoginUser()[pri:0, instance...)</span>
+                <span class="method-start">583 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.unit.UserServiceTest.testRegisterUser())</span>
+                <span class="method-start">584 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegisterUser</span>
+                <span class="method-start">584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testRegisterUser status=SUCCESS method=UserServiceTest.testRegisterUser()[pri:0, in...)</span>
+                <span class="method-start">593 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">594 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(org.testng.TestRunner@67b08461)</span>
+                <span class="method-start">608 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(SOAP)</span>
+                <span class="method-start">609 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.unit.UserServiceTest.testAuthorizeUser())</span>
+                <span class="method-start">1051 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAuthorizeUser</span>
+                <span class="method-start">1052 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testAuthorizeUser status=SUCCESS method=UserServiceTest.testAuthorizeUser()[pri:0, ...)</span>
+                <span class="method-start">1131 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.unit.UserServiceTest.testDeleteUser())</span>
+                <span class="method-start">1131 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteUser</span>
+                <span class="method-start">1131 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testDeleteUser status=SUCCESS method=UserServiceTest.testDeleteUser()[pri:0, instan...)</span>
+                <span class="method-start">1138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.unit.UserServiceTest.testGetAllUser())</span>
+                <span class="method-start">1139 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetAllUser</span>
+                <span class="method-start">1139 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testGetAllUser status=SUCCESS method=UserServiceTest.testGetAllUser()[pri:0, instan...)</span>
+                <span class="method-start">1144 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.unit.UserServiceTest.testGetUsersByRoleName())</span>
+                <span class="method-start">1144 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetUsersByRoleName</span>
+                <span class="method-start">1144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testGetUsersByRoleName status=SUCCESS method=UserServiceTest.testGetUsersByRoleName...)</span>
+                <span class="method-start">1148 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.unit.UserServiceTest.testLoginUser())</span>
+                <span class="method-start">1149 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginUser</span>
+                <span class="method-start">1149 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testLoginUser status=SUCCESS method=UserServiceTest.testLoginUser()[pri:0, instance...)</span>
+                <span class="method-start">1152 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.unit.UserServiceTest.testRegisterUser())</span>
+                <span class="method-start">1153 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegisterUser</span>
+                <span class="method-start">1153 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testRegisterUser status=SUCCESS method=UserServiceTest.testRegisterUser()[pri:0, in...)</span>
+                <span class="method-start">1157 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1157 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.integration.LoginUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(org.testng.TestRunner@75c33175)</span>
+                <span class="method-start">1161 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(SOAP)</span>
+                <span class="method-start">1162 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.LoginUserTest.testLoginEmptyEmailNegative())</span>
+                <span class="method-start">1163 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginEmptyEmailNegative</span>
+                <span class="method-start">1164 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testLoginEmptyEmailNegative status=SUCCESS method=LoginUserTest.testLoginEmptyEmail...)</span>
+                <span class="method-start">1168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.LoginUserTest.testLoginEmptyPasswordNegative())</span>
+                <span class="method-start">1168 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginEmptyPasswordNegative</span>
+                <span class="method-start">1169 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testLoginEmptyPasswordNegative status=SUCCESS method=LoginUserTest.testLoginEmptyPa...)</span>
+                <span class="method-start">1172 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.LoginUserTest.testLoginNoExistUser())</span>
+                <span class="method-start">1172 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginNoExistUser</span>
+                <span class="method-start">1173 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testLoginNoExistUser status=SUCCESS method=LoginUserTest.testLoginNoExistUser()[pri...)</span>
+                <span class="method-start">1176 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.LoginUserTest.testLoginPositive())</span>
+                <span class="method-start">1177 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginPositive</span>
+                <span class="method-start">1177 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testLoginPositive status=SUCCESS method=LoginUserTest.testLoginPositive()[pri:0, in...)</span>
+                <span class="method-start">1181 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1181 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(org.testng.TestRunner@61e434b9)</span>
+                <span class="method-start">1185 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(REST)</span>
+                <span class="method-start">1185 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.LoginUserTest.testLoginEmptyEmailNegative())</span>
+                <span class="method-start">1186 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginEmptyEmailNegative</span>
+                <span class="method-start">1186 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testLoginEmptyEmailNegative status=SUCCESS method=LoginUserTest.testLoginEmptyEmail...)</span>
+                <span class="method-start">1195 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.LoginUserTest.testLoginEmptyPasswordNegative())</span>
+                <span class="method-start">1196 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginEmptyPasswordNegative</span>
+                <span class="method-start">1196 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testLoginEmptyPasswordNegative status=SUCCESS method=LoginUserTest.testLoginEmptyPa...)</span>
+                <span class="method-start">1204 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.LoginUserTest.testLoginNoExistUser())</span>
+                <span class="method-start">1205 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginNoExistUser</span>
+                <span class="method-start">1205 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testLoginNoExistUser status=SUCCESS method=LoginUserTest.testLoginNoExistUser()[pri...)</span>
+                <span class="method-start">1214 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.LoginUserTest.testLoginPositive())</span>
+                <span class="method-start">1214 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginPositive</span>
+                <span class="method-start">1214 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testLoginPositive status=SUCCESS method=LoginUserTest.testLoginPositive()[pri:0, in...)</span>
+                <span class="method-start">1223 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1224 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.integration.RegistrationUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(org.testng.TestRunner@4d418fe4)</span>
+                <span class="method-start">1227 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(SOAP)</span>
+                <span class="method-start">1227 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.RegistrationUserTest.testRegisterEmptyEmailNegative())</span>
+                <span class="method-start">1228 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegisterEmptyEmailNegative</span>
+                <span class="method-start">1228 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testRegisterEmptyEmailNegative status=SUCCESS method=RegistrationUserTest.testRegis...)</span>
+                <span class="method-start">1232 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.RegistrationUserTest.testRegisterEmptyPasswordNegative())</span>
+                <span class="method-start">1233 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegisterEmptyPasswordNegative</span>
+                <span class="method-start">1233 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testRegisterEmptyPasswordNegative status=SUCCESS method=RegistrationUserTest.testRe...)</span>
+                <span class="method-start">1237 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.RegistrationUserTest.testRegisterExistingUserNegative())</span>
+                <span class="method-start">1238 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegisterExistingUserNegative</span>
+                <span class="method-start">1238 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testRegisterExistingUserNegative status=SUCCESS method=RegistrationUserTest.testReg...)</span>
+                <span class="method-start">1242 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.RegistrationUserTest.testRegisterPositive())</span>
+                <span class="method-start">1242 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegisterPositive</span>
+                <span class="method-start">1243 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testRegisterPositive status=SUCCESS method=RegistrationUserTest.testRegisterPositiv...)</span>
+                <span class="method-start">1251 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1252 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(org.testng.TestRunner@b4de95c)</span>
+                <span class="method-start">1256 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(REST)</span>
+                <span class="method-start">1256 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.RegistrationUserTest.testRegisterEmptyEmailNegative())</span>
+                <span class="method-start">1257 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegisterEmptyEmailNegative</span>
+                <span class="method-start">1257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testRegisterEmptyEmailNegative status=SUCCESS method=RegistrationUserTest.testRegis...)</span>
+                <span class="method-start">1267 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.RegistrationUserTest.testRegisterEmptyPasswordNegative())</span>
+                <span class="method-start">1267 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegisterEmptyPasswordNegative</span>
+                <span class="method-start">1267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testRegisterEmptyPasswordNegative status=SUCCESS method=RegistrationUserTest.testRe...)</span>
+                <span class="method-start">1276 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.RegistrationUserTest.testRegisterExistingUserNegative())</span>
+                <span class="method-start">1276 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegisterExistingUserNegative</span>
+                <span class="method-start">1277 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testRegisterExistingUserNegative status=SUCCESS method=RegistrationUserTest.testReg...)</span>
+                <span class="method-start">1285 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.RegistrationUserTest.testRegisterPositive())</span>
+                <span class="method-start">1286 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegisterPositive</span>
+                <span class="method-start">1286 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testRegisterPositive status=SUCCESS method=RegistrationUserTest.testRegisterPositiv...)</span>
+                <span class="method-start">1305 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1306 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.integration.AuthorizeUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(org.testng.TestRunner@28139cd0)</span>
+                <span class="method-start">1309 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(SOAP)</span>
+                <span class="method-start">1309 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.AuthorizeUserTest.testAuthorizeEmptyEmailNegative())</span>
+                <span class="method-start">1310 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAuthorizeEmptyEmailNegative</span>
+                <span class="method-start">1310 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testAuthorizeEmptyEmailNegative status=SUCCESS method=AuthorizeUserTest.testAuthori...)</span>
+                <span class="method-start">1315 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.AuthorizeUserTest.testAuthorizeEmptyPasswordNegative())</span>
+                <span class="method-start">1315 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAuthorizeEmptyPasswordNegative</span>
+                <span class="method-start">1316 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testAuthorizeEmptyPasswordNegative status=SUCCESS method=AuthorizeUserTest.testAuth...)</span>
+                <span class="method-start">1319 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.AuthorizeUserTest.testAuthorizeNoExistNegative())</span>
+                <span class="method-start">1319 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAuthorizeNoExistNegative</span>
+                <span class="method-start">1319 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testAuthorizeNoExistNegative status=SUCCESS method=AuthorizeUserTest.testAuthorizeN...)</span>
+                <span class="method-start">1323 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.AuthorizeUserTest.testAuthorizePositive())</span>
+                <span class="method-start">1323 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAuthorizePositive</span>
+                <span class="method-start">1324 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testAuthorizePositive status=SUCCESS method=AuthorizeUserTest.testAuthorizePositive...)</span>
+                <span class="method-start">1328 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1329 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(org.testng.TestRunner@1f9c303e)</span>
+                <span class="method-start">1333 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(REST)</span>
+                <span class="method-start">1333 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.AuthorizeUserTest.testAuthorizeEmptyEmailNegative())</span>
+                <span class="method-start">1334 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAuthorizeEmptyEmailNegative</span>
+                <span class="method-start">1334 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testAuthorizeEmptyEmailNegative status=SUCCESS method=AuthorizeUserTest.testAuthori...)</span>
+                <span class="method-start">1343 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.AuthorizeUserTest.testAuthorizeEmptyPasswordNegative())</span>
+                <span class="method-start">1343 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAuthorizeEmptyPasswordNegative</span>
+                <span class="method-start">1344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testAuthorizeEmptyPasswordNegative status=SUCCESS method=AuthorizeUserTest.testAuth...)</span>
+                <span class="method-start">1352 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.AuthorizeUserTest.testAuthorizeNoExistNegative())</span>
+                <span class="method-start">1353 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAuthorizeNoExistNegative</span>
+                <span class="method-start">1353 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testAuthorizeNoExistNegative status=SUCCESS method=AuthorizeUserTest.testAuthorizeN...)</span>
+                <span class="method-start">1361 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.AuthorizeUserTest.testAuthorizePositive())</span>
+                <span class="method-start">1362 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAuthorizePositive</span>
+                <span class="method-start">1362 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testAuthorizePositive status=SUCCESS method=AuthorizeUserTest.testAuthorizePositive...)</span>
+                <span class="method-start">1370 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1371 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.integration.DeleteUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(org.testng.TestRunner@472346a8)</span>
+                <span class="method-start">1373 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(SOAP)</span>
+                <span class="method-start">1374 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.DeleteUserTest.testDeleteInvalidIdNegative())</span>
+                <span class="method-start">1374 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteInvalidIdNegative</span>
+                <span class="method-start">1375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testDeleteInvalidIdNegative status=SUCCESS method=DeleteUserTest.testDeleteInvalidI...)</span>
+                <span class="method-start">1377 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.DeleteUserTest.testDeleteNoExistUserNegative())</span>
+                <span class="method-start">1378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteNoExistUserNegative</span>
+                <span class="method-start">1378 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testDeleteNoExistUserNegative status=SUCCESS method=DeleteUserTest.testDeleteNoExis...)</span>
+                <span class="method-start">1382 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.DeleteUserTest.testDeleteUserPositive())</span>
+                <span class="method-start">1382 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteUserPositive</span>
+                <span class="method-start">1382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testDeleteUserPositive status=SUCCESS method=DeleteUserTest.testDeleteUserPositive(...)</span>
+                <span class="method-start">1389 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1390 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(org.testng.TestRunner@5cf3e414)</span>
+                <span class="method-start">1393 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(REST)</span>
+                <span class="method-start">1393 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.DeleteUserTest.testDeleteInvalidIdNegative())</span>
+                <span class="method-start">1394 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteInvalidIdNegative</span>
+                <span class="method-start">1394 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testDeleteInvalidIdNegative status=SUCCESS method=DeleteUserTest.testDeleteInvalidI...)</span>
+                <span class="method-start">1403 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.DeleteUserTest.testDeleteNoExistUserNegative())</span>
+                <span class="method-start">1403 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteNoExistUserNegative</span>
+                <span class="method-start">1403 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testDeleteNoExistUserNegative status=SUCCESS method=DeleteUserTest.testDeleteNoExis...)</span>
+                <span class="method-start">1411 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.DeleteUserTest.testDeleteUserPositive())</span>
+                <span class="method-start">1411 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteUserPositive</span>
+                <span class="method-start">1412 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testDeleteUserPositive status=SUCCESS method=DeleteUserTest.testDeleteUserPositive(...)</span>
+                <span class="method-start">1428 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1429 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.integration.GetUsersByRoleNameTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(org.testng.TestRunner@353dc9f3)</span>
+                <span class="method-start">1432 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(SOAP)</span>
+                <span class="method-start">1433 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.GetUsersByRoleNameTest.testGetUserByRoleNameNegative())</span>
+                <span class="method-start">1433 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetUserByRoleNameNegative</span>
+                <span class="method-start">1433 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testGetUserByRoleNameNegative status=SUCCESS method=GetUsersByRoleNameTest.testGetU...)</span>
+                <span class="method-start">1436 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.GetUsersByRoleNameTest.testGetUsersByRoleNamePositive())</span>
+                <span class="method-start">1437 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetUsersByRoleNamePositive</span>
+                <span class="method-start">1437 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testGetUsersByRoleNamePositive status=SUCCESS method=GetUsersByRoleNameTest.testGet...)</span>
+                <span class="method-start">1443 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1443 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(org.testng.TestRunner@6b958bd3)</span>
+                <span class="method-start">1446 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(REST)</span>
+                <span class="method-start">1446 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.GetUsersByRoleNameTest.testGetUserByRoleNameNegative())</span>
+                <span class="method-start">1447 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetUserByRoleNameNegative</span>
+                <span class="method-start">1447 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testGetUserByRoleNameNegative status=SUCCESS method=GetUsersByRoleNameTest.testGetU...)</span>
+                <span class="method-start">1456 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.GetUsersByRoleNameTest.testGetUsersByRoleNamePositive())</span>
+                <span class="method-start">1456 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetUsersByRoleNamePositive</span>
+                <span class="method-start">1456 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testGetUsersByRoleNamePositive status=SUCCESS method=GetUsersByRoleNameTest.testGet...)</span>
+                <span class="method-start">1480 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1480 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.integration.GetAllUsersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(org.testng.TestRunner@270f00d3)</span>
+                <span class="method-start">1483 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(SOAP)</span>
+                <span class="method-start">1483 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.GetAllUsersTest.testGetAllUsersPositive())</span>
+                <span class="method-start">1484 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetAllUsersPositive</span>
+                <span class="method-start">1484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testGetAllUsersPositive status=SUCCESS method=GetAllUsersTest.testGetAllUsersPositi...)</span>
+                <span class="method-start">1490 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1490 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(org.testng.TestRunner@49ff30ad)</span>
+                <span class="method-start">1493 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(REST)</span>
+                <span class="method-start">1494 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.epam.integration.GetAllUsersTest.testGetAllUsersPositive())</span>
+                <span class="method-start">1494 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetAllUsersPositive</span>
+                <span class="method-start">1494 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testGetAllUsersPositive status=SUCCESS method=GetAllUsersTest.testGetAllUsersPositi...)</span>
+                <span class="method-start">1505 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1506 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

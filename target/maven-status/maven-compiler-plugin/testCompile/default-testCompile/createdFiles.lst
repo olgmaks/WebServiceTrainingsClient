@@ -1,0 +1,8 @@
+com\epam\unit\UserServiceTest.class
+com\epam\integration\LoginUserTest.class
+com\epam\integration\DeleteUserTest.class
+com\epam\integration\GetUsersByRoleNameTest.class
+com\epam\integration\GetAllUsersTest.class
+com\epam\integration\RegistrationUserTest.class
+com\epam\integration\AuthorizeUserTest.class
+com\epam\base\TestBase.class
